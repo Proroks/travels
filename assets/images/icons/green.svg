@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="298px" height="143px" viewBox="0 0 298 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
-    <title>5D2E4ABD-F8EA-4424-90F3-6EE9BF405FF0</title>
+    <title>F3D9B6CE-11C3-47E1-941E-6C40B66CB629</title>
     <desc>Created with sketchtool.</desc>
     <defs>
         <path d="M234.374278,116.966977 L3.08387208,116.966977 C1.38069656,116.966977 0,115.657779 0,114.042802 L0,2.92417442 C0,1.30919748 1.38069656,2.96666451e-16 3.08387208,0 L234.374278,0 C234.374278,3.22995388 237.135671,5.84834884 240.542022,5.84834884 C243.948373,5.84834884 246.709766,3.22995388 246.709766,-1.77635684e-15 L268.296871,0 C270.000046,-2.96666451e-16 271.380743,1.30919748 271.380743,2.92417442 L271.380743,114.042802 C271.380743,115.657779 270.000046,116.966977 268.296871,116.966977 L246.709766,116.966977 C246.709766,113.737023 243.948373,111.118628 240.542022,111.118628 C237.135671,111.118628 234.374278,113.737023 234.374278,116.966977 Z" id="path-1"></path>
@@ -18,31 +18,19 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="главная_гайды" transform="translate(-1235.000000, -1414.000000)">
             <g id="Group-8-Copy" transform="translate(398.000000, 1216.000000)">
-                <g id="Group-15-Copy-13" transform="translate(850.000000, 202.000000)">
-                    <g id="Group-4">
-                        <g id="Group-Copy-2">
-                            <mask id="mask-2" fill="white">
-                                <use xlink:href="#path-1"></use>
-                            </mask>
-                            <g id="Mask">
-                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
-                                <use fill="#01B2FF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                            </g>
-                            <rect id="Rectangle" fill="#30F1C3" mask="url(#mask-2)" x="265" y="-4" width="6.38074284" height="123.966977"></rect>
-                            <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#0A5386">
-                                <use mask="url(#mask-5)" xlink:href="#path-4"></use>
-                            </g>
+                <g id="Group-4" transform="translate(850.000000, 202.000000)">
+                    <g id="Group-Copy-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#01B2FF" fill-rule="evenodd" xlink:href="#path-1"></use>
                         </g>
-                        <text id="45-000" font-family=".SFNSDisplay-Semibold, .SF NS Display" font-size="32" font-weight="500" fill="#FFFFFF">
-                            <tspan x="24.562066" y="51.9384419">45 000 </tspan>
-                        </text>
-                        <text id="₽" font-family=".SFNSDisplay-Semibold, .SF NS Display" font-size="22" font-weight="500" fill="#FFFFFF">
-                            <tspan x="140" y="45">₽</tspan>
-                        </text>
-                        <text id="Найдено-315-туров" font-family=".SFNSText, .SF NS Text" font-size="14" font-weight="normal" fill="#FFFFFF">
-                            <tspan x="26.1766698" y="93">Найдено 315 туров</tspan>
-                        </text>
-                        <polygon id="Combined-Shape-Copy-2" fill="#FFFFFF" points="176.833436 89.9580262 174.107652 92.5426557 174.652809 93.0595815 178.375372 89.5297908 174.652809 86 174.107652 86.5169259 176.965713 89.2269826 158.914103 89.2269826 158.914103 89.9580262"></polygon>
+                        <rect id="Rectangle" fill="#30F1C3" mask="url(#mask-2)" x="265" y="-4" width="6.38074284" height="123.966977"></rect>
+                        <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#0A5386">
+                            <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                        </g>
                     </g>
                 </g>
             </g>
