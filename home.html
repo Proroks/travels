@@ -11,10 +11,44 @@
   </head>
   <body>
     <header class="header">
+      <div class="header__fixed">
+        <div class="container">
+          <div class="top__line"><span>вылет из москвы</span></div>
+          <div class="header__fixed-main fixed">
+            <div class="fixed__btn">
+              <div class="fixed__btn-item">15 000 ₽ </div>
+              <div class="fixed__btn-item">30 000 ₽ </div>
+              <div class="fixed__btn-item">45 000 ₽</div>
+            </div>
+            <div class="fixed__type">
+              <div class="fixed__type-item">Добавить вид отдыха</div>
+              <div class="fixed__type-item">Добавить страну</div>
+            </div>
+            <div class="btn-wrapp"><a class="btn btn--orange">Найти туры</a></div>
+          </div>
+        </div>
+      </div>
       <div class="header__nav">
         <div class="container">
           <div class="header__nav-logo"><img src="assets/images/icons/logo.svg"><span>Туры по фиксированным ценам</span></div>
-          <div class="header__nav-btn"><a class="btn" href="#">помощь</a><a class="btn" href="#">Ваши пожелания</a><a class="btn btn--blue" href="#">ВХОД</a></div>
+          <div class="header__nav-btn"><a class="btn" href="#">помощь</a><a class="btn" href="#">Ваши пожелания</a><a class="btn btn--blue open--login" href="#">ВХОД</a>
+            <div class="login">
+              <div class="login__title">Войти через социальные сети:</div>
+              <div class="login__soc"><a href=""><img src="assets/images/icons/vk_icon.svg"></a><a href=""><img src="assets/images/icons/facebook_icon.svg"></a><a href=""><img src="assets/images/icons/od_icon.svg"></a><a href=""><img src="assets/images/icons/gogle_icon.svg"></a><a href=""><img src="assets/images/icons/twitter_icon.svg"></a></div>
+              <div class="login__text">Авторизуясь, вы соглашаетесь с правилами использования сервиса и обработки персональных данных</div>
+              <div class="login__line">или</div>
+              <div class="login__wrapp input">
+                <div class="input__item">
+                  <input placeholder="Ваш e-mail">
+                </div>
+                <div class="input__item">
+                  <input placeholder="Пароль"><span><img src="assets/images/icons/eye.svg"></span>
+                </div>
+              </div>
+              <div class="login__btn"><a class="btn btn--blue">Войти</a></div>
+              <div class="login__close"><img src="assets/images/icons/close.svg"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="header__tur">
@@ -24,7 +58,7 @@
       </div>
       <div class="header__info hyde">
         <div class="container">
-          <div class="hyde__img"><img src="assets/images/icons/human.svg"></div>
+          <div class="hyde__img"><img src="assets/images/icons/man.gif"></div>
           <div class="hyde__info">
             <div class="hyde__info-title">
               <h1>Туры по фиксированным ценам</h1>
@@ -38,7 +72,7 @@
                   <div class="tiket__item-link"><a href="#">Найдено 98 туров →</a></div>
                 </div>
                 <div class="tiket__item orange">
-                  <div class="tiket__item-title orange"><span>30 000</span><img src="assets/images/icons/rub.svg"></div>
+                  <div class="tiket__item-title"><span>30 000</span><img src="assets/images/icons/rub.svg"></div>
                   <div class="tiket__item-link"><a href="#">Найдено 98 туров →</a></div>
                 </div>
                 <div class="tiket__item green">
@@ -201,7 +235,7 @@
       <section class="country">
         <div class="container">
           <div class="country__title">Страны
-            <div class="country__title-filter"><span>по алфавиту /</span><span class="active">по популярности</span></div>
+            <div class="country__title-filter"><span>по алфавиту /</span><span class="active"> по популярности</span></div>
           </div>
           <div class="country__inner">
             <div class="country__inner-country"><a href="">Греция</a><a href="">Грузия</a><a href="">Дания</a><a href="">Доминикана</a><a href="">Египет</a><a href="">Израиль</a><a href="">Индия</a><a href="">Индонезия</a></div>
