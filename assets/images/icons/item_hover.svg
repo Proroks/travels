@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="281px" height="333px" viewBox="0 0 281 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>9AFA0A17-2F52-4DC0-9A8B-3328F1F11697</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M281,11.9014064 L281,320.992255 C280.797531,320.981739 280.593681,320.976415 280.388583,320.976415 C274.170599,320.976415 269.100214,325.869466 268.848238,332 L10.9289272,332 C10.6852628,326.07168 5.93581415,321.300553 2.69229083e-15,320.992255 L0,11.9014064 C6.09474553,11.5848533 10.9387453,6.56328804 10.9387453,0.415043884 C10.9387453,0.276106805 10.9362716,0.137745079 10.9313658,-2.91433544e-15 L268.845799,0 C268.840894,0.137745079 268.83842,0.276106805 268.83842,0.415043884 C268.83842,6.76753469 274.009604,11.917246 280.388583,11.917246 C280.593681,11.917246 280.797531,11.9119224 281,11.9014064 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная_гайды" transform="translate(-932.000000, -3801.000000)">
+            <g id="Group-11-Copy" transform="translate(371.000000, 3801.000000)">
+                <g id="Oval-4-+-Oval-4-+-Oval-4-+-Oval-4-Mask" transform="translate(561.000000, 0.435158)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#C8E7FE" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

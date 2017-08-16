@@ -8,6 +8,7 @@
     <meta name="description" content="Awesome site">
     <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
   </head>
   <body>
     <header class="header">
@@ -53,7 +54,25 @@
       </div>
       <div class="header__tur">
         <div class="container">
-          <div class="header__tur-nomber"><span>+7 (495) 123-45-67</span><span>вылет из москвы</span></div>
+          <div class="sity-block">
+            <div class="container">
+              <div class="sity-block__title">Из какого города полетите?</div>
+              <div class="sity-block__input">
+                <input placeholder="Город вылета">
+                <div class="sity-block__input-btn"><img src="assets/images/icons/search_big.svg"></div>
+              </div>
+              <div class="sity-block__inner sity-wrapp">
+                <div class="sity__colum"><a class="active" href="">Москва</a><a href="">Санкт-Петербург</a><a class="letter-a" href="">Абакан</a><a href="">Анадырь</a><a href="">Архангельск</a><a href="">Астрахань</a><a class="letter-b" href="">Барнаул</a><a href="">Белгород</a><a href="">Биробиджан</a><a href="">Благовещенск</a><a href="">Брянск</a><a class="letter-v" href="">Великий Новгород</a><a href="">Владивосток</a><a href="">Владикавказ</a></div>
+                <div class="sity__colum"><a href="">Владимир</a><a href="">Волгоград</a><a href="">Вологда</a><a href="">Воронеж</a><a class="letter-g" href="">Горно-Алтайск</a><a href="">Грозный</a><a class="letter-e" href="">Екатеринбург</a><a class="letter-z" href="">Зеленоград</a><a class="letter-i" href="">Иваново</a><a href="">Ижевск</a><a href="">Ирбит</a><a href="">Иркутск</a><a class="letter-th" href="">Йошкар-Ола</a><a class="letter-k" href="">Казань</a><a href="">Калининград</a></div>
+                <div class="sity__colum"><a href="">Калуга</a><a href="">Кемерово</a><a href="">Киров</a><a href="">Комсомольск-на-Амуре</a><a href="">Кострома</a><a href="">Красногорск</a><a href="">Краснодар</a><a href="">Красноярск</a><a href="">Курган</a><a href="">Курск</a><a href="">Кызыл</a><a class="letter-l" href="">Липецк</a><a class="letter-m" href="">Магадан</a><a href="">Магас</a></div>
+                <div class="sity__colum"><a href="">Магнитогорск</a><a href="">Майкоп</a><a href="">Махачкала</a><a href="">Минеральные Воды</a><a href="">Мурманск</a><a class="letter-n" href="">Набережные Челны</a><a href="">Нальчик</a><a href="">Нарьян-Мар</a><a href="">Нижневартовск</a><a href="">Нижний Новгород</a><a href="">Нижний Тагил</a><a href="">Новокузнецк</a><a href="">Новороссийск</a><a href="">Новосибирск</a><a href="">Новоуральск</a></div>
+                <div class="sity__colum"><a class="letter-o" href="">Омск</a><a href="">Оренбург</a><a href="">Орёл</a><a class="letter-p" href="">Пенза</a><a href="">Пермь</a><a href="">Петрозаводск</a><a href="">Петропавловск-Камчатский</a><a href="">Псков</a><a class="letter-r" href="">Ростов-на-Дону</a><a href="">Рязань</a><a class="letter-c" href="">Салехард</a><a href="">Самара</a><a href="">Саранск</a><a href="">Саратов</a></div>
+                <div class="sity__colum"><a href="">Севастополь</a><a href="">Симферополь</a><a href="">Смоленск</a><a href="">Сочи</a><a href="">Ставрополь</a><a href="">Стерлитамак</a><a href="">Сургут</a><a href="">Сыктывкар</a><a class="letter-t" href="">Таганрог</a><a href="">Тамбов</a><a href="">Тверь</a><a href="">Тольятти</a><a href="">Томск</a><a href="">Тула</a><a href="">Тюмень</a></div>
+                <div class="sity__colum"><a class="letter-y" href="">Улан-Удэ</a><a href="">Ульяновск</a><a href="">Уфа</a><a class="letter-x" href="">Хабаровск</a><a href="">Ханты-Мансийск</a><a class="letter-h" href="">Чебоксары</a><a href="">Челябинск</a><a href="">Череповец</a><a href="">Черкесск</a><a href="">Чита</a><a class="letter-e" href="">Элиста</a><a class="letter-yu" href="">Южно-Сахалинск</a><a class="letter-ia" href="">Якутск</a><a href="">Ярославль</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="header__tur-nomber"><span>+7 (495) 123-45-67</span><span>вылет из <a class='sity_click' href='javascript:void(0)'> москвы</a></span></div>
         </div>
       </div>
       <div class="header__info hyde">
@@ -67,15 +86,15 @@
             <div class="tiket">
               <div class="tiket__title">Выберите бюджет</div>
               <div class="tiket__inner">
-                <div class="tiket__item red">
+                <div class="tiket__item">
                   <div class="tiket__item-title"><span>15 000</span><img src="assets/images/icons/rub.svg"></div>
                   <div class="tiket__item-link"><a href="#">Найдено 98 туров →</a></div>
                 </div>
-                <div class="tiket__item orange">
+                <div class="tiket__item">
                   <div class="tiket__item-title"><span>30 000</span><img src="assets/images/icons/rub.svg"></div>
                   <div class="tiket__item-link"><a href="#">Найдено 98 туров →</a></div>
                 </div>
-                <div class="tiket__item green">
+                <div class="tiket__item">
                   <div class="tiket__item-title"><span>45 000</span><img src="assets/images/icons/rub.svg"></div>
                   <div class="tiket__item-link"><a href="#">Найдено 98 туров →</a></div>
                 </div>
@@ -90,7 +109,7 @@
                     <option>Любой отдых</option>
                   </select>
                 </div>
-                <div class="tiket__btn-item">
+                <div class="tiket__btn-item scroll">
                   <select class="sity">
                     <option>Пляжный отдых</option>
                     <option>Пляжный отдых</option>
@@ -222,10 +241,12 @@
           <div class="form__subtitle">Подпишитесь на нашу рассылку</div>
           <div class="form__inner">
             <div class="form__inner-input">
-              <input placeholder="Ваше Имя">
+              <div class="label__visible label__visible-name">Ваше имя</div>
+              <input class="input-name" placeholder="Ваше Имя">
             </div>
             <div class="form__inner-input">
-              <input placeholder="Ваш e-mail">
+              <div class="label__visible label__visible-email">Ваш e-mail</div>
+              <input class="input-email" placeholder="Ваш e-mail">
             </div>
             <div class="form__inner-input"><a class="btn btn--folow" href="#">Подписаться</a></div>
           </div>
