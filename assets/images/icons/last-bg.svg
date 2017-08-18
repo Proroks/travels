@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="333px" viewBox="0 0 280 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1549.23999,2019.99373 L1549.23999,2329.01068 C1549.07407,2329.00358 1548.90723,2329 1548.73956,2329 C1542.38282,2329 1537.22967,2334.14971 1537.22967,2340.5022 C1537.22967,2340.66899 1537.23322,2340.83494 1537.24025,2341 L1274,2341 C1271.79086,2341 1270,2339.20914 1270,2337 L1270,2012 L1270,2012 C1270,2009.79086 1271.79086,2008 1274,2008 L1274,2008 L1537.24044,2008 C1537.23328,2008.16651 1537.22967,2008.33393 1537.22967,2008.5022 C1537.22967,2014.85469 1542.38282,2020.0044 1548.73956,2020.0044 C1548.90723,2020.0044 1549.07407,2020.00082 1549.23999,2019.99373 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-1270.000000, -2008.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape-Copy-4" fill="#C8E7FE" transform="translate(1409.619995, 2174.500000) scale(-1, 1) translate(-1409.619995, -2174.500000) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
