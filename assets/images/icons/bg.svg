@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1142px" height="353px" viewBox="0 0 1142 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
+    <title>Rectangle 3 Copy 49</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <filter x="-1.5%" y="-4.4%" width="102.9%" height="110.5%" filterUnits="objectBoundingBox" id="filter-1">
@@ -14,6 +14,18 @@
             </feMerge>
         </filter>
         <path d="M854.999822,9.94260948e-09 L1118,9.94260948e-09 C1120.20914,9.94260908e-09 1122,1.79086101 1122,4.00000001 L1122,328 C1122,330.209139 1120.20914,332 1118,332 L854.999822,332 C854.963734,325.67836 849.828916,320.564842 843.5,320.564842 C837.171084,320.564842 832.036266,325.67836 832.000191,332 L571.999822,332 C571.963734,325.67836 566.828916,320.564842 560.5,320.564842 C554.171084,320.564842 549.036266,325.67836 549.000191,332 L289.999822,332 C289.963734,325.67836 284.828916,320.564842 278.5,320.564842 C272.171084,320.564842 267.036266,325.67836 267.000191,332 L4,332 C1.790861,332 2.705415e-16,330.209139 0,328 L0,4.00000001 L0,4.00000001 C-2.705415e-16,1.79086101 1.790861,9.94260989e-09 4,9.94260948e-09 L4,9.94260948e-09 L267.000178,9.94260948e-09 C267.000064,0.0223330096 267,0.0446810974 267,0.067044091 C267,6.4195349 272.148725,11.5692462 278.5,11.5692462 C284.851275,11.5692462 290,6.4195349 290,0.067044091 C290,0.0446810974 289.999936,0.0223330096 289.999809,-3.11452253e-14 L549.000178,9.94260948e-09 C549.000064,0.0223330096 549,0.0446810974 549,0.067044091 C549,6.4195349 554.148725,11.5692462 560.5,11.5692462 C566.851275,11.5692462 572,6.4195349 572,0.067044091 C572,0.0446810974 571.999936,0.0223330096 571.999809,-3.11452253e-14 L832.000178,9.94260948e-09 C832.000064,0.0223330096 832,0.0446810974 832,0.067044091 C832,6.4195349 837.148725,11.5692462 843.5,11.5692462 C849.851275,11.5692462 855,6.4195349 855,0.067044091 C855,0.0446810974 854.999936,0.0223330096 854.999809,-3.11452253e-14 Z" id="path-2"></path>
+        <rect id="path-4" x="278" y="-1" width="1.11782114" height="331.936439"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="331.936439" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-6" x="560" y="-2" width="1.11782114" height="331.936439"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="331.936439" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <rect id="path-8" x="843" y="-1.43515801" width="1.11782114" height="331.936439"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="331.936439" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="главная-copy" transform="translate(-389.000000, -2001.000000)">
@@ -23,6 +35,15 @@
                         <use xlink:href="#path-2"></use>
                     </mask>
                     <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-3)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-3" stroke-dasharray="2,4" mask="url(#mask-3)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-7)" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-4" stroke-dasharray="2,4" mask="url(#mask-3)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-9)" xlink:href="#path-8"></use>
+                    </g>
                 </g>
             </g>
         </g>
