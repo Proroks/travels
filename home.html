@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Home - Sitename</title>
-    <meta name="author" content="asight.pro">
+    <meta name="author">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="description" content="Awesome site">
     <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
@@ -62,12 +62,14 @@
               <div class="login__soc"><a href=""><img src="assets/images/icons/vk_icon.svg"></a><a href=""><img src="assets/images/icons/facebook_icon.svg"></a><a href=""><img src="assets/images/icons/od_icon.svg"></a><a href=""><img src="assets/images/icons/gogle_icon.svg"></a><a href=""><img src="assets/images/icons/twitter_icon.svg"></a></div>
               <div class="login__text">Авторизуясь, вы соглашаетесь с правилами использования сервиса и обработки персональных данных</div>
               <div class="login__line">или</div>
-              <div class="login__wrapp input">
-                <div class="input__item">
+              <div class="login__wrapp">
+                <div class="login__wrapp-input input">
+                  <div class="label__visible">Ваш e-mail</div>
                   <input placeholder="Ваш e-mail">
                 </div>
-                <div class="input__item">
-                  <input class="password-input" placeholder="Пароль" type="password"><span class="open_password"><img src="assets/images/icons/eye.svg"></span>
+                <div class="login__wrapp-input input">
+                  <div class="label__visible">Пароль</div>
+                  <input class="password-input" placeholder="Пароль" type="password"><span class="open_password"></span>
                 </div>
               </div>
               <div class="login__btn"><a class="btn btn--blue">Войти</a></div>
@@ -81,18 +83,19 @@
           <div class="sity-block">
             <div class="container">
               <div class="sity-block__title">Из какого города полетите?</div>
-              <div class="sity-block__input">
+              <div class="sity-block__input input">
+                <div class="label__visible">Город вылета</div>
                 <input placeholder="Город вылета">
                 <div class="sity-block__input-btn"><img src="assets/images/icons/search_big.svg"></div>
               </div>
               <div class="sity-block__inner sity-wrapp">
-                <div class="sity__colum"><a class="active" href="">Москва</a><a href="">Санкт-Петербург</a><a class="letter-a" href="">Абакан</a><a href="">Анадырь</a><a href="">Архангельск</a><a href="">Астрахань</a><a class="letter-b" href="">Барнаул</a><a href="">Белгород</a><a href="">Биробиджан</a><a href="">Благовещенск</a><a href="">Брянск</a><a class="letter-v" href="">Великий Новгород</a><a href="">Владивосток</a><a href="">Владикавказ</a></div>
-                <div class="sity__colum"><a href="">Владимир</a><a href="">Волгоград</a><a href="">Вологда</a><a href="">Воронеж</a><a class="letter-g" href="">Горно-Алтайск</a><a href="">Грозный</a><a class="letter-e" href="">Екатеринбург</a><a class="letter-z" href="">Зеленоград</a><a class="letter-i" href="">Иваново</a><a href="">Ижевск</a><a href="">Ирбит</a><a href="">Иркутск</a><a class="letter-th" href="">Йошкар-Ола</a><a class="letter-k" href="">Казань</a><a href="">Калининград</a></div>
-                <div class="sity__colum"><a href="">Калуга</a><a href="">Кемерово</a><a href="">Киров</a><a href="">Комсомольск-на-Амуре</a><a href="">Кострома</a><a href="">Красногорск</a><a href="">Краснодар</a><a href="">Красноярск</a><a href="">Курган</a><a href="">Курск</a><a href="">Кызыл</a><a class="letter-l" href="">Липецк</a><a class="letter-m" href="">Магадан</a><a href="">Магас</a></div>
-                <div class="sity__colum"><a href="">Магнитогорск</a><a href="">Майкоп</a><a href="">Махачкала</a><a href="">Минеральные Воды</a><a href="">Мурманск</a><a class="letter-n" href="">Набережные Челны</a><a href="">Нальчик</a><a href="">Нарьян-Мар</a><a href="">Нижневартовск</a><a href="">Нижний Новгород</a><a href="">Нижний Тагил</a><a href="">Новокузнецк</a><a href="">Новороссийск</a><a href="">Новосибирск</a><a href="">Новоуральск</a></div>
-                <div class="sity__colum"><a class="letter-o" href="">Омск</a><a href="">Оренбург</a><a href="">Орёл</a><a class="letter-p" href="">Пенза</a><a href="">Пермь</a><a href="">Петрозаводск</a><a href="">Петропавловск-Камчатский</a><a href="">Псков</a><a class="letter-r" href="">Ростов-на-Дону</a><a href="">Рязань</a><a class="letter-c" href="">Салехард</a><a href="">Самара</a><a href="">Саранск</a><a href="">Саратов</a></div>
-                <div class="sity__colum"><a href="">Севастополь</a><a href="">Симферополь</a><a href="">Смоленск</a><a href="">Сочи</a><a href="">Ставрополь</a><a href="">Стерлитамак</a><a href="">Сургут</a><a href="">Сыктывкар</a><a class="letter-t" href="">Таганрог</a><a href="">Тамбов</a><a href="">Тверь</a><a href="">Тольятти</a><a href="">Томск</a><a href="">Тула</a><a href="">Тюмень</a></div>
-                <div class="sity__colum"><a class="letter-y" href="">Улан-Удэ</a><a href="">Ульяновск</a><a href="">Уфа</a><a class="letter-x" href="">Хабаровск</a><a href="">Ханты-Мансийск</a><a class="letter-h" href="">Чебоксары</a><a href="">Челябинск</a><a href="">Череповец</a><a href="">Черкесск</a><a href="">Чита</a><a class="letter-e" href="">Элиста</a><a class="letter-yu" href="">Южно-Сахалинск</a><a class="letter-ia" href="">Якутск</a><a href="">Ярославль</a></div>
+                <div class="sity__colum"><a class="active" href="javascript:void(0)">Москва</a><a href="javascript:void(0)">Санкт-Петербург</a><a class="letter-a" href="javascript:void(0)">Абакан</a><a href="javascript:void(0)">Анадырь</a><a href="javascript:void(0)">Архангельск</a><a href="javascript:void(0)">Астрахань</a><a class="letter-b" href="javascript:void(0)">Барнаул</a><a href="javascript:void(0)">Белгород</a><a href="javascript:void(0)">Биробиджан</a><a href="javascript:void(0)">Благовещенск</a><a href="javascript:void(0)">Брянск</a><a class="letter-v" href="">Великий Новгород</a><a href="javascript:void(0)">Владивосток</a><a href="javascript:void(0)">Владикавказ</a></div>
+                <div class="sity__colum"><a href="javascript:void(0)">Владимир</a><a href="javascript:void(0)">Волгоград</a><a href="javascript:void(0)">Вологда</a><a href="javascript:void(0)">Воронеж</a><a class="letter-g" href="">Горно-Алтайск</a><a href="javascript:void(0)">Грозный</a><a class="letter-e" href="javascript:void(0)">Екатеринбург</a><a class="letter-z" href="javascript:void(0)">Зеленоград</a><a class="letter-i" href="javascript:void(0)">Иваново</a><a href="javascript:void(0)">Ижевск</a><a href="javascript:void(0)">Ирбит</a><a href="javascript:void(0)">Иркутск</a><a class="letter-th" href="javascript:void(0)">Йошкар-Ола</a><a class="letter-k" href="javascript:void(0)">Казань</a><a href="javascript:void(0)">Калининград</a></div>
+                <div class="sity__colum"><a href="javascript:void(0)">Калуга</a><a href="javascript:void(0)">Кемерово</a><a href="javascript:void(0)">Киров</a><a href="javascript:void(0)">Комсомольск-на-Амуре</a><a href="javascript:void(0)">Кострома</a><a href="javascript:void(0)">Красногорск</a><a href="javascript:void(0)">Краснодар</a><a href="javascript:void(0)">Красноярск</a><a href="javascript:void(0)">Курган</a><a href="javascript:void(0)">Курск</a><a href="javascript:void(0)">Кызыл</a><a class="letter-l" href="javascript:void(0)">Липецк</a><a class="letter-m" href="javascript:void(0)">Магадан</a><a href="javascript:void(0)">Магас</a></div>
+                <div class="sity__colum"><a href="javascript:void(0)">Магнитогорск</a><a href="javascript:void(0)">Майкоп</a><a href="javascript:void(0)">Махачкала</a><a href="javascript:void(0)">Минеральные Воды</a><a href="javascript:void(0)">Мурманск</a><a class="letter-n" href="javascript:void(0)">Набережные Челны</a><a href="javascript:void(0)">Нальчик</a><a href="javascript:void(0)">Нарьян-Мар</a><a href="javascript:void(0)">Нижневартовск</a><a href="javascript:void(0)">Нижний Новгород</a><a href="javascript:void(0)">Нижний Тагил</a><a href="javascript:void(0)">Новокузнецк</a><a href="javascript:void(0)">Новороссийск</a><a href="javascript:void(0)">Новосибирск</a><a href="javascript:void(0)">Новоуральск</a></div>
+                <div class="sity__colum"><a class="letter-o" href="javascript:void(0)">Омск</a><a href="javascript:void(0)">Оренбург</a><a href="javascript:void(0)">Орёл</a><a class="letter-p" href="javascript:void(0)">Пенза</a><a href="javascript:void(0)">Пермь</a><a href="javascript:void(0)">Петрозаводск</a><a href="javascript:void(0)">Петропавловск-Камчатский</a><a href="javascript:void(0)">Псков</a><a class="letter-r" href="javascript:void(0)">Ростов-на-Дону</a><a href="javascript:void(0)">Рязань</a><a class="letter-c" href="javascript:void(0)">Салехард</a><a href="javascript:void(0)">Самара</a><a href="javascript:void(0)">Саранск</a><a href="javascript:void(0)">Саратов</a></div>
+                <div class="sity__colum"><a href="javascript:void(0)">Севастополь</a><a href="javascript:void(0)">Симферополь</a><a href="javascript:void(0)">Смоленск</a><a href="javascript:void(0)">Сочи</a><a href="javascript:void(0)">Ставрополь</a><a href="javascript:void(0)">Стерлитамак</a><a href="javascript:void(0)">Сургут</a><a href="javascript:void(0)">Сыктывкар</a><a class="letter-t" href="javascript:void(0)">Таганрог</a><a href="javascript:void(0)">Тамбов</a><a href="javascript:void(0)">Тверь</a><a href="javascript:void(0)">Тольятти</a><a href="javascript:void(0)">Томск</a><a href="javascript:void(0)">Тула</a><a href="javascript:void(0)">Тюмень</a></div>
+                <div class="sity__colum"><a class="letter-y" href="javascript:void(0)">Улан-Удэ</a><a href="javascript:void(0)">Ульяновск</a><a href="javascript:void(0)">Уфа</a><a class="letter-x" href="javascript:void(0)">Хабаровск</a><a href="javascript:void(0)">Ханты-Мансийск</a><a class="letter-h" href="javascript:void(0)">Чебоксары</a><a href="javascript:void(0)">Челябинск</a><a href="javascript:void(0)">Череповец</a><a href="javascript:void(0)">Черкесск</a><a href="javascript:void(0)">Чита</a><a class="letter-e" href="javascript:void(0)">Элиста</a><a class="letter-yu" href="javascript:void(0)">Южно-Сахалинск</a><a class="letter-ia" href="javascript:void(0)">Якутск</a><a href="javascript:void(0)">Ярославль</a></div>
               </div>
             </div>
           </div>
@@ -169,6 +172,26 @@
             <div class="offer__menu-item"><span>45 000 ₽</span></div>
           </div>
           <div class="offer__inner offer__inner--active">
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
             <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
                 <div class="offer__info">
                   <div class="offer__info-title">Китай</div>
@@ -312,13 +335,13 @@
           <div class="form__title">Хотите получать больше выгодных предложений?</div>
           <div class="form__subtitle">Подпишитесь на нашу рассылку</div>
           <div class="form__inner">
-            <div class="form__inner-input">
-              <div class="label__visible label__visible-name">Ваше имя</div>
-              <input class="input-name" placeholder="Ваше Имя">
+            <div class="form__inner-input input">
+              <div class="label__visible">Ваше имя</div>
+              <input placeholder="Ваше Имя">
             </div>
-            <div class="form__inner-input">
-              <div class="label__visible label__visible-email">Ваш e-mail</div>
-              <input class="input-email" placeholder="Ваш e-mail">
+            <div class="form__inner-input input">
+              <div class="label__visible">Ваш e-mail</div>
+              <input placeholder="Ваш e-mail">
             </div>
             <div class="form__inner-input"><a class="btn btn--folow" href="#">Подписаться</a></div>
           </div>
