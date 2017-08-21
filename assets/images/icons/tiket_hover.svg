@@ -19,7 +19,7 @@
                             <mask id="mask-2" fill="white">
                                 <use xlink:href="#path-1"></use>
                             </mask>
-                            <use id="Mask" stroke="#FFFFFF" fill-opacity="0.24255548" fill="#48C8FF" xlink:href="#path-1"></use>
+                            <use id="Mask" stroke="#FFFFFF" fill-opacity="0.129500679" fill="#48C8FF" xlink:href="#path-1"></use>
                             <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#FFFFFF">
                                 <use mask="url(#mask-4)" xlink:href="#path-3"></use>
                             </g>
