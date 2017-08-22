@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="135px" viewBox="0 0 248 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>9E5886E7-C131-4B1E-A064-3AEA21123E5B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M187.514447,108.966977 L3.36175107,108.966977 C1.97139649,108.966977 0.844291397,107.747322 0.844291397,106.242802 L0.844291397,2.72417442 C0.844291397,1.21965443 1.97139649,2.76375838e-16 3.36175107,0 L187.514447,0 C187.514447,3.22995388 190.116142,5.84834884 193.325496,5.84834884 C196.53485,5.84834884 199.136546,3.22995388 199.136546,-1.50102153e-13 L219.863283,0 C221.253638,-2.76375838e-16 222.380743,1.21965443 222.380743,2.72417442 L222.380743,34.0521802 L222.380743,106.242802 C222.380743,107.747322 221.253638,108.966977 219.863283,108.966977 L199.136546,108.966977 C199.136546,105.737023 196.53485,103.118628 193.325496,103.118628 C190.116142,103.118628 187.514447,105.737023 187.514447,108.966977 Z" id="path-1"></path>
+        <filter x="-10.8%" y="-13.8%" width="121.7%" height="144.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0154360817   0 0 0 0 0.114317264   0 0 0 0 0.21619898  0 0 0 0.459380661 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="192.542022" y="-3.15165116" width="1" height="105.270279"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="0.770968019" height="105.270279" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная_768+" transform="translate(-496.000000, -255.000000)">
+            <g id="Group-13-Copy-30" transform="translate(508.000000, 259.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#01B2FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#30F1C3" mask="url(#mask-2)" x="216" y="-3" width="6.38074284" height="123.966977"></rect>
+                        <g id="Rectangle-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#085587">
+                            <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
