@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>3AA9E339-7A19-49AC-BBD9-B080EF168E74</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0.233352338" y="0.233352338" width="34.5332953" height="34.5332953" rx="17.2666477"></rect>
+        <filter x="-47.8%" y="-30.4%" width="195.6%" height="195.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.288581295 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная_320-copy" transform="translate(-11.000000, -360.000000)">
+            <g id="Group-12" transform="translate(20.000000, 363.000000)">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#01B2FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FFFFFF" stroke-width="1.5" x="0.983352338" y="0.983352338" width="33.0332953" height="33.0332953" rx="16.5166477"></rect>
+                </g>
+                <g id="Group-5" transform="translate(10.309889, 9.309889)" stroke-linecap="square" stroke-width="2" stroke="#FFFFFF">
+                    <g id="Group-11">
+                        <path d="M7.49780151,0.331073746 L7.49780151,14.9583899" id="Line-3"></path>
+                        <path d="M14.6273162,7.69011077 L0,7.69011077" id="Line-3-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
