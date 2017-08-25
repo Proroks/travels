@@ -74,17 +74,34 @@
       </div>
       <div class="header__nav">
         <div class="container">
-          <div class="header__nav-logo"><img src="assets/images/icons/logo.svg"><span>Туры по фиксированным ценам</span></div>
+          <div class="header__nav-logo"><a href=""><img src="assets/images/icons/logo.svg"><span>Туры по фиксированным ценам</span></a></div>
           <div class="mobile-logo">
             <div class="mobile-logo__logo"><img src="assets/images/icons/mobile-logo.svg"><span>вылет из <br><a class="sity_click" href="javascript:void(0)">москвы</a></span></div>
           </div>
-          <div class="header__nav-btn"><a class="btn" href="#">помощь</a><a class="btn" href="#">Ваши пожелания</a><a class="btn btn--blue open--login" href="#">ВХОД</a>
+          <div class="header__nav-btn"><a class="btn help--btn" href="#">помощь</a><a class="btn wishes--btn" href="#">Ваши пожелания</a><a class="btn btn--blue open--login" href="#">ВХОД</a>
             <div class="sandwich">
               <div class="sw-topper"></div>
               <div class="sw-bottom"></div>
               <div class="sw-footer"></div>
             </div>
             <div class="mobile__menu"><a href="#">Частые вопросы<br></a><a href="#">Как связаться<br></a><a href="#">Ваши пожелания<br></a></div>
+            <div class="help"><a href="">Частые вопросы</a><a href="">Как связаться</a>
+              <div class="help__close"><img src="assets/images/icons/close.svg"></div>
+            </div>
+            <div class="wishes">
+              <div class="wishes__close"><img src="assets/images/icons/close.svg"></div>
+              <div class="wishes__title">У вас есть пожелания? Напишите нам!</div>
+              <div class="wishes__textarea">
+                <textarea rows="10" cols="55"></textarea>
+              </div>
+              <div class="wishes__subtitle">Вы можете отправить пожелание анонимно, но если требуется ответ<br> оставьте свой e-mail в конце письма</div>
+              <div class="wishes__bottom">
+                <div class="wishes__bottom-input"><span>Введите код с картинки</span>
+                  <input>
+                </div>
+                <div class="wishes__bottom-captcha"><span>Изменить картинку</span></div><a class="btn btn--blue" href="#">Отправить</a>
+              </div>
+            </div>
             <div class="login">
               <div class="login__title">Войти через социальные сети:</div>
               <div class="login__soc"><a href=""><img src="assets/images/icons/vk_icon.svg"></a><a href=""><img src="assets/images/icons/facebook_icon.svg"></a><a href=""><img src="assets/images/icons/od_icon.svg"></a><a href=""><img src="assets/images/icons/gogle_icon.svg"></a><a href=""><img src="assets/images/icons/twitter_icon.svg"></a></div>
@@ -157,11 +174,11 @@
               <div class="tiket__btn">
                 <div class="tiket__btn-item">
                   <select class="types">
-                    <option val="123">Пляжный отдых</option>
-                    <option val="123">Горные лыжи</option>
-                    <option val="123">Экскурсии</option>
-                    <option val="123">Туры с детьми</option>
-                    <option val="123">Любой отдых</option>
+                    <option val="pl">Пляжный отдых</option>
+                    <option val="pg">Горные лыжи</option>
+                    <option val="pt">Экскурсии</option>
+                    <option val="pq">Туры с детьми</option>
+                    <option val="pu">Любой отдых</option>
                   </select>
                 </div>
                 <div class="tiket__btn-item scroll">
@@ -242,56 +259,88 @@
                 </div></a></div>
           </div>
           <div class="offer__inner">
-            <div class="offer__inner-item"><img src="assets/images/icons/offer.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer2.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer3.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer4.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer2.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer3.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer4.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
           </div>
           <div class="offer__inner">
-            <div class="offer__inner-item"><img src="assets/images/icons/offer.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer2.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer3.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
-            <div class="offer__inner-item"><img src="assets/images/icons/offer4.jpg">
-              <div class="offer__info">
-                <div class="offer__info-title">Китай</div>
-                <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного</div><a href=""> <img src="assets/images/icons/next.svg"></a>
-              </div>
-            </div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer2.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer3.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
+            <div class="offer__inner-item"><a href=""><img src="assets/images/icons/offer4.jpg">
+                <div class="offer__info">
+                  <div class="offer__info-title">Китай</div>
+                  <div class="offer__info-text">Для тех кому хочется чего-то нового и необыкновенного<img src="assets/images/icons/next.svg"></div>
+                </div></a></div>
           </div>
           <div class="offer__more">
             <div class="offer__more-str"></div><span>Показать ещё 4 предложения</span>
@@ -340,22 +389,18 @@
       </section>
       <section class="type">
         <div class="container">
-          <div class="type__item"><img src="assets/images/icons/type.png">
-            <div class="type__item-title">На выходные</div>
-            <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div>
-          </div>
-          <div class="type__item"><img src="assets/images/icons/type2.png">
-            <div class="type__item-title">Отдых с детьми</div>
-            <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div>
-          </div>
-          <div class="type__item"><img src="assets/images/icons/type3.png">
-            <div class="type__item-title">На море на неделю</div>
-            <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div>
-          </div>
-          <div class="type__item"><img src="assets/images/icons/type4.png">
-            <div class="type__item-title">Летим в горы</div>
-            <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div>
-          </div>
+          <div class="type__item"><a href=""><img src="assets/images/icons/type.png">
+              <div class="type__item-title">На выходные</div>
+              <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div></a></div>
+          <div class="type__item"><a href=""><img src="assets/images/icons/type2.png">
+              <div class="type__item-title">Отдых с детьми</div>
+              <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div></a></div>
+          <div class="type__item"><a href=""><img src="assets/images/icons/type3.png">
+              <div class="type__item-title">На море на неделю</div>
+              <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div></a></div>
+          <div class="type__item"><a href=""><img src="assets/images/icons/type4.png">
+              <div class="type__item-title">Летим в горы</div>
+              <div class="type__item-text">Для тех кому хочется чего-то<br> нового и необыкновенного</div></a></div>
         </div>
       </section>
       <section class="form">
@@ -380,14 +425,21 @@
         <div class="container">
           <div class="country__title">Страны
             <div class="country__title-filter"><span class="active">по алфавиту /</span><span> по популярности</span></div>
-            <div class="country__title-filter--mobile"><span>по алфавиту</span></div>
           </div>
-          <div class="country__inner">
+          <div class="country__inner country__inner--active">
             <div class="country__inner-country"><a href="">Австрия</a><a href="">Армения</a><a href="">Белорусь</a><a href="">Бельгия</a><a href="">Болгария</a><a href="">Великобритания</a><a href="">Венгрия</a><a href="">Вьетнам</a><a href="">Германия</a></div>
             <div class="country__inner-country"><a href="">Греция</a><a href="">Грузия</a><a href="">Дания</a><a href="">Доминикана</a><a href="">Египет</a><a href="">Израиль</a><a href="">Индия</a><a href="">Индонезия</a></div>
             <div class="country__inner-country"><a href="">Ирландия</a><a href="">Исландия</a><a href="">Испания</a><a href="">Италия</a><a href="">Кипр</a><a href="">Китай</a><a href="">Куба</a><a href="">Маврикий</a><a href="">Малайзия </a></div>
             <div class="country__inner-country"><a href="">Мальдивы</a><a href="">Мальта</a><a href="">Мексика</a><a href="">Нидерланды</a><a href="">Норвегия</a><a href="">ОАЭ</a><a href="">Португалия</a><a href="">Россия</a></div>
             <div class="country__inner-country"><a href="">Сейшелы</a><a href="">Словакия</a><a href="">Словения</a><a href="">США</a><a href="">Тайланд</a><a href="">Тунис</a><a href="">Турция</a><a href="">Узбекистан</a><a href="">Финляндия</a></div>
+            <div class="country__inner-country"><a href="">Филлипины</a><a href="">Франция</a><a href="">Хорватия</a><a href="">Чехия</a><a href="">Швейцария</a><a href="">Швеция</a><a href="">Шри Ланка</a><a href="">Япония</a></div>
+          </div>
+          <div class="country__inner">
+            <div class="country__inner-country"><a href="">Греция</a><a href="">Грузия</a><a href="">Дания</a><a href="">Доминикана</a><a href="">Египет</a><a href="">Израиль</a><a href="">Индия</a><a href="">Индонезия</a></div>
+            <div class="country__inner-country"><a href="">Австрия</a><a href="">Армения</a><a href="">Белорусь</a><a href="">Бельгия</a><a href="">Болгария</a><a href="">Великобритания</a><a href="">Венгрия</a><a href="">Вьетнам</a><a href="">Германия</a></div>
+            <div class="country__inner-country"><a href="">Ирландия</a><a href="">Исландия</a><a href="">Испания</a><a href="">Италия</a><a href="">Кипр</a><a href="">Китай</a><a href="">Куба</a><a href="">Маврикий</a><a href="">Малайзия </a></div>
+            <div class="country__inner-country"><a href="">Сейшелы</a><a href="">Словакия</a><a href="">Словения</a><a href="">США</a><a href="">Тайланд</a><a href="">Тунис</a><a href="">Турция</a><a href="">Узбекистан</a><a href="">Финляндия</a></div>
+            <div class="country__inner-country"><a href="">Мальдивы</a><a href="">Мальта</a><a href="">Мексика</a><a href="">Нидерланды</a><a href="">Норвегия</a><a href="">ОАЭ</a><a href="">Португалия</a><a href="">Россия</a></div>
             <div class="country__inner-country"><a href="">Филлипины</a><a href="">Франция</a><a href="">Хорватия</a><a href="">Чехия</a><a href="">Швейцария</a><a href="">Швеция</a><a href="">Шри Ланка</a><a href="">Япония</a></div>
           </div>
         </div>
