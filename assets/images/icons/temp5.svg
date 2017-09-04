@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="90px" viewBox="0 0 167 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>4A06CA36-73A1-400A-99EC-8CEA119569BF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="59.4821065%" y1="100%" x2="59.4821036%" y2="-10.3797431%" id="linearGradient-1">
+            <stop stop-color="#39B3EB" offset="0%"></stop>
+            <stop stop-color="#A2E2FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="166.53427" height="90"></rect>
+        <circle id="path-4" cx="103.975085" cy="67.9750848" r="30.9750848"></circle>
+        <filter x="-7.3%" y="-7.3%" width="114.5%" height="114.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0387385351   0 0 0 0 0.589631235   0 0 0 0 0.835565476  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-6" cx="134.890929" cy="18.8909294" r="21.8909294"></circle>
+        <filter x="-10.3%" y="-10.3%" width="120.6%" height="120.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0387385351   0 0 0 0 0.589631235   0 0 0 0 0.835565476  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="73.3958298" cy="72.3958298" r="10.3958298"></circle>
+        <filter x="-21.6%" y="-21.6%" width="143.3%" height="143.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0387385351   0 0 0 0 0.589631235   0 0 0 0 0.835565476  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-1066.000000, -4185.000000)">
+            <g id="Group-4" transform="translate(1066.000000, 4185.000000)">
+                <g id="Bitmap">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Oval-8-Copy" mask="url(#mask-3)">
+                        <use fill-opacity="0.140000001" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="Oval-8-Copy-2" mask="url(#mask-3)">
+                        <use fill-opacity="0.140000001" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="Oval-8-Copy-3" mask="url(#mask-3)">
+                        <use fill-opacity="0.140000001" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

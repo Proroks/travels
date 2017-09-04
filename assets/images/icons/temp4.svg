@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="90px" viewBox="0 0 167 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>B8BACC72-D240-4F61-829A-9B63F80A37C5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="166.53427" height="90"></rect>
+        <rect id="path-3" x="120" y="-3" width="104.179855" height="48.2585069" rx="24.1292535"></rect>
+        <filter x="-4.3%" y="-9.3%" width="108.6%" height="118.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.231365801   0 0 0 0 0.492206296   0 0 0 0 0.702327806  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="139.098231" y="-3" width="104.179855" height="61.2389316" rx="30.6194658"></rect>
+        <filter x="-4.3%" y="-7.3%" width="108.6%" height="114.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.231365801   0 0 0 0 0.492206296   0 0 0 0 0.702327806  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-900.000000, -4185.000000)">
+            <g id="Group-5" transform="translate(900.000000, 4185.000000)">
+                <g id="Bitmap">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#004986" xlink:href="#path-1"></use>
+                    <g id="Rectangle-11-Copy" opacity="0.570765399" mask="url(#mask-2)">
+                        <use fill="#005F99" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle-11-Copy-2" opacity="0.570765399" mask="url(#mask-2)">
+                        <use fill="#005F99" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <path d="M120.172476,-33.903037 L166.53427,-33.903037 L166.53427,27.3358945 L120.172476,27.3358945 L120.172476,27.3358945 C103.261812,27.3358945 89.5530103,13.6270928 89.5530103,-3.28357125 L89.5530103,-3.28357125 L89.5530103,-3.28357125 C89.5530103,-20.1942352 103.261812,-33.903037 120.172476,-33.903037 Z" id="Rectangle-11" fill="#3F89C5" mask="url(#mask-2)"></path>
+                    <path d="M104.5,68.5 L124.5,19.5" id="Line-6" stroke="#3F89C5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M120.5,78.5 L135.5,40.5" id="Line-6-Copy" stroke="#3F89C5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M129.5,68.5 L149.5,19.5" id="Line-6-Copy-2" stroke="#3F89C5" opacity="0.624433877" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M136.5,107.5 L156.5,58.5" id="Line-6-Copy-3" stroke="#3F89C5" opacity="0.363507699" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M148.5,65.5 L168.5,16.5" id="Line-6-Copy-8" stroke="#3F89C5" opacity="0.363507699" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M103.5,47.5 L123.5,-1.5" id="Line-6-Copy-4" stroke="#3F89C5" opacity="0.363507699" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M117.5,72.5 L137.5,23.5" id="Line-6-Copy-5" stroke="#3F89C5" opacity="0.239866395" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M93.5,107.5 L113.5,58.5" id="Line-6-Copy-9" stroke="#3F89C5" opacity="0.239866395" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M125.5,101.5 L145.5,52.5" id="Line-6-Copy-6" stroke="#3F89C5" opacity="0.239866395" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M131.5,74.5 L151.5,25.5" id="Line-6-Copy-7" stroke="#3F89C5" opacity="0.239866395" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

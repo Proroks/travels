@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="846px" height="125px" viewBox="0 0 846 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M668.299026,110.5 L4,110.5 C1.790861,110.5 2.705415e-16,108.709139 0,106.5 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,1.1409265e-13 4,1.13686838e-13 L4,1.13686838e-13 L668.315483,1.13686838e-13 C668.304569,0.165261807 668.299026,0.331985725 668.299026,0.5 C668.299026,4.64213562 671.668193,8 675.824271,8 C679.98035,8 683.349517,4.64213562 683.349517,0.5 C683.349517,0.331985725 683.343974,0.165261807 683.333059,-4.13558077e-15 L827.790472,1.13686838e-13 C829.999611,1.13281025e-13 831.790472,1.790861 831.790472,4 L831.790472,106.5 C831.790472,108.709139 829.999611,110.5 827.790472,110.5 L683.349517,110.5 C683.349517,106.357864 679.98035,103 675.824271,103 C671.668193,103 668.299026,106.357864 668.299026,110.5 Z" id="path-1"></path>
+        <filter x="-1.4%" y="-8.6%" width="102.8%" height="120.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.327502264 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-393.000000, -661.000000)">
+            <g id="Group-5" transform="translate(400.000000, 666.000000)">
+                <g id="Rectangle-3-Copy-29">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M675,7.5 L675,11.5 L677,11.5 L677,7.5 L675,7.5 Z M675,14.5 L675,18.5 L677,18.5 L677,14.5 L675,14.5 Z M675,21.5 L675,25.5 L677,25.5 L677,21.5 L675,21.5 Z M675,28.5 L675,32.5 L677,32.5 L677,28.5 L675,28.5 Z M675,35.5 L675,39.5 L677,39.5 L677,35.5 L675,35.5 Z M675,42.5 L675,46.5 L677,46.5 L677,42.5 L675,42.5 Z M675,49.5 L675,53.5 L677,53.5 L677,49.5 L675,49.5 Z M675,56.5 L675,60.5 L677,60.5 L677,56.5 L675,56.5 Z M675,63.5 L675,67.5 L677,67.5 L677,63.5 L675,63.5 Z M675,70.5 L675,74.5 L677,74.5 L677,70.5 L675,70.5 Z M675,77.5 L675,81.5 L677,81.5 L677,77.5 L675,77.5 Z M675,84.5 L675,88.5 L677,88.5 L677,84.5 L675,84.5 Z M675,91.5 L675,95.5 L677,95.5 L677,91.5 L675,91.5 Z M675,98.5 L675,101.5489 L677,101.5489 L677,98.5 L675,98.5 Z" id="Line-3" fill="#CACACA" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M683.349352,0.696434561 L827.790472,0.696434561 C829.999611,0.696434561 831.790472,2.48729556 831.790472,4.69643456 L831.790472,74.6441552 C831.790472,76.8532942 829.999611,78.6441552 827.790472,78.6441552 L683.349517,78.6441552 C683.349517,74.4882124 679.98035,71.1191551 675.824271,71.1191551 C671.668193,71.1191551 668.299026,74.4882124 668.299026,78.6441552 L4,78.6441552 C1.790861,78.6441552 2.705415e-16,76.8532942 0,74.6441552 L0,4.69643456 L0,4.69643456 C-2.705415e-16,2.48729556 1.790861,0.696434561 4,0.696434561 L4,0.696434561 L668.299191,0.696434561 C668.327317,4.82831512 671.685634,8.16915533 675.824271,8.16915533 C679.962909,8.16915533 683.321226,4.82831512 683.349339,0.696434572 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-6.4%" width="101.7%" height="118.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.372169384 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-1068.000000, -1260.000000)">
+            <g id="background-1st-screen-copy-21" transform="translate(-14.000000, -6.000000)" fill="#E8EDEF">
+                <rect id="Rectangle-9" x="0.951279528" y="363.121364" width="1932.04872" height="8360.40454"></rect>
+            </g>
+            <g id="Group-23-Copy-2" transform="translate(400.000000, 1189.000000)">
+                <g id="Group-18">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-16" mask="url(#mask-2)" stroke-linecap="square" stroke="#C2CBD0" stroke-width="2" stroke-dasharray="2,5">
+                        <g transform="translate(675.000000, 3.000000)" id="Line-3-Copy">
+                            <path d="M1.66666667,0 L1.66666667,75.0007407"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

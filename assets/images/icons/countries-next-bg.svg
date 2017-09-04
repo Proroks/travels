@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="242px" viewBox="0 0 264 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>4CACB53A-D596-451E-8D2F-F73C0054A0B9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="46.763587%" y1="51.6065274%" x2="46.765396%" y2="7.60433473%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.933530578" offset="19.9986414%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.710654438" offset="38.1190137%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.428781703" offset="57.6752684%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.195737092" offset="73.8601902%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-972.000000, -8359.000000)" fill="url(#linearGradient-1)">
+            <g id="Rectangle-3-Copy-39" transform="translate(972.000000, 8338.000000)">
+                <rect id="Rectangle-12" x="0" y="1" width="271.608834" height="261.063669"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="11px" viewBox="0 0 23 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M668.299026,110.5 L4,110.5 C1.790861,110.5 2.705415e-16,108.709139 0,106.5 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L4,0 L668.315483,0 C668.304569,0.165261807 668.299026,0.331985725 668.299026,0.5 C668.299026,4.64213562 671.668193,8 675.824271,8 C679.98035,8 683.349517,4.64213562 683.349517,0.5 C683.349517,0.331985725 683.343974,0.165261807 683.333059,-1.14158683e-13 L827.790472,0 C829.999611,-4.05812251e-16 831.790472,1.790861 831.790472,4 L831.790472,106.5 C831.790472,108.709139 829.999611,110.5 827.790472,110.5 L683.349517,110.5 C683.349517,106.357864 679.98035,103 675.824271,103 C671.668193,103 668.299026,106.357864 668.299026,110.5 Z" id="path-1"></path>
+        <filter x="-1.0%" y="-5.9%" width="102.0%" height="115.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.372169384 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="поиск_15₽-copy" transform="translate(-1065.000000, -1371.000000)">
+            <g id="background-1st-screen-copy-21" transform="translate(-14.000000, -5.000000)" fill="#E8EDEF">
+                <rect id="Rectangle-9" x="0.951279528" y="395.320266" width="1971.11985" height="8139.881"></rect>
+            </g>
+            <g id="Group-13" transform="translate(400.000000, 1371.000000)">
+                <g id="Rectangle-3-Copy-22">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M676,8.5 L676,100.5489" id="Line-3" stroke="#CACACA" stroke-width="2" stroke-linecap="square" stroke-dasharray="2,5" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
