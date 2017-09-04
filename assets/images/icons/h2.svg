@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy 35</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M668.301843,121.70073 L4,121.70073 C1.790861,121.70073 2.705415e-16,119.909869 0,117.70073 L0,4.59792024 L0,4.59792024 C-2.705415e-16,2.38878124 1.790861,0.597920235 4,0.597920235 L4,0.597920235 L668.299383,0.597920235 C668.340643,4.85661378 671.693843,8.29577915 675.824271,8.29577915 C679.9547,8.29577915 683.3079,4.85661378 683.349132,0.597920272 L827.790472,0.597920235 C829.999611,0.597920235 831.790472,2.38878124 831.790472,4.59792024 L831.790472,117.70073 C831.790472,119.909869 829.999611,121.70073 827.790472,121.70073 L683.3467,121.70073 C683.23243,117.50844 679.908278,114.146144 675.824271,114.146144 C671.740264,114.146144 668.416113,117.50844 668.302052,121.700729 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-4.1%" width="101.7%" height="111.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.303668478 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="гайды" transform="translate(-746.000000, -2882.000000)">
+            <g id="Group-20-Copy-2" transform="translate(79.000000, 2721.000000)"></g>
+            <g id="Rectangle-3-Copy-35" transform="translate(79.000000, 2882.199761)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
