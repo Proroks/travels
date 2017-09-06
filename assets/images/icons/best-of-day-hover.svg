@@ -8,7 +8,7 @@
         <filter x="-1.4%" y="-8.6%" width="102.8%" height="120.8%" filterUnits="objectBoundingBox" id="filter-3">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.601534194 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.48230865 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <linearGradient x1="53.6962938%" y1="30.0200313%" x2="12.2038045%" y2="30.0200298%" id="linearGradient-4">
             <stop stop-color="#FFB61B" offset="0%"></stop>
@@ -17,7 +17,7 @@
         <path d="M2,0.0999755859 L823.361002,0.0999755859 L823.361002,0.0999755859 C824.465572,0.0999755859 825.361002,0.995406086 825.361002,2.09997559 L825.361002,67.0502469 L825.361002,102.099976 L825.361002,102.099976 C825.361002,103.204545 824.465572,104.099976 823.361002,104.099976 L2,104.099976 L2,104.099976 C0.8954305,104.099976 -1.05925173e-13,103.204545 -1.13908882e-13,102.099976 L-1.13686838e-13,2.09997559 L-1.14130927e-13,2.09997559 C-1.14266198e-13,0.995406086 0.8954305,0.0999755859 2,0.0999755859 Z" id="path-5"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="выдача-по-стране" transform="translate(-393.000000, -534.000000)">
+        <g id="выдача" transform="translate(-393.000000, -534.000000)">
             <g id="Group-20" transform="translate(400.000000, 539.000000)">
                 <g id="Rectangle-3-Copy-20">
                     <mask id="mask-2" fill="white">
