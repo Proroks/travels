@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="764px" height="125px" viewBox="0 0 764 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M587.299026,110.5 L4.87896812,110.5 L4.87896812,110.5 C2.66982912,110.5 0.878968118,108.709139 0.878968118,106.5 L0.878968118,4 L0.878968118,4 C0.878968118,1.790861 2.66982912,1.13648561e-13 4.87896812,1.13242749e-13 L4.87896812,1.13686838e-13 L587.315483,1.13686838e-13 C587.304569,0.165261807 587.299026,0.331985725 587.299026,0.5 C587.299026,4.64213562 590.668193,8 594.824271,8 C598.98035,8 602.349517,4.64213562 602.349517,0.5 C602.349517,0.331985725 602.343974,0.165261807 602.333059,1.89293026e-14 L746.790472,1.13686838e-13 L746.790472,1.13242749e-13 C748.999611,1.12836936e-13 750.790472,1.790861 750.790472,4 L750.790472,106.5 C750.790472,108.709139 748.999611,110.5 746.790472,110.5 L602.349517,110.5 C602.349517,106.357864 598.98035,103 594.824271,103 C590.668193,103 587.299026,106.357864 587.299026,110.5 Z" id="path-1"></path>
+        <filter x="-1.5%" y="-8.6%" width="103.1%" height="120.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.327502264 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача_туров_768-" transform="translate(-2.000000, -706.000000)">
+            <g id="Group-5-Copy-12" transform="translate(8.000000, 711.000000)">
+                <g id="Rectangle-3-Copy-29">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M594,7.5 L594,11.5 L596,11.5 L596,7.5 L594,7.5 Z M594,14.5 L594,18.5 L596,18.5 L596,14.5 L594,14.5 Z M594,21.5 L594,25.5 L596,25.5 L596,21.5 L594,21.5 Z M594,28.5 L594,32.5 L596,32.5 L596,28.5 L594,28.5 Z M594,35.5 L594,39.5 L596,39.5 L596,35.5 L594,35.5 Z M594,42.5 L594,46.5 L596,46.5 L596,42.5 L594,42.5 Z M594,49.5 L594,53.5 L596,53.5 L596,49.5 L594,49.5 Z M594,56.5 L594,60.5 L596,60.5 L596,56.5 L594,56.5 Z M594,63.5 L594,67.5 L596,67.5 L596,63.5 L594,63.5 Z M594,70.5 L594,74.5 L596,74.5 L596,70.5 L594,70.5 Z M594,77.5 L594,81.5 L596,81.5 L596,77.5 L594,77.5 Z M594,84.5 L594,88.5 L596,88.5 L596,84.5 L594,84.5 Z M594,91.5 L594,95.5 L596,95.5 L596,91.5 L594,91.5 Z M594,98.5 L594,101.5489 L596,101.5489 L596,98.5 L594,98.5 Z" id="Line-3" fill="#CACACA" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

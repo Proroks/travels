@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="765px" height="125px" viewBox="0 0 765 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M587.314003,110.5 L4.47891519,110.5 C2.26977619,110.5 0.478915191,108.709139 0.478915191,106.5 L0.478915191,4 L0.478915191,4 C0.478915191,1.790861 2.26977619,4.05812251e-16 4.47891519,0 L4.47891519,0 L588.330406,0 C588.319528,0.165261807 588.314003,0.331985725 588.314003,0.5 C588.314003,4.64213562 591.671868,8 595.814003,8 C599.956139,8 603.314003,4.64213562 603.314003,0.5 C603.314003,0.331985725 603.308479,0.165261807 603.297601,-1.05665476e-13 L746.790472,0 C748.999611,-4.05812251e-16 750.790472,1.790861 750.790472,4 L750.790472,106.5 C750.790472,108.709139 748.999611,110.5 746.790472,110.5 L602.314003,110.5 C602.314003,106.357864 598.956139,103 594.814003,103 C590.671868,103 587.314003,106.357864 587.314003,110.5 Z" id="path-1"></path>
+        <filter x="-1.5%" y="-8.6%" width="103.1%" height="120.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.315868433 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="53.6962938%" y1="30.0200313%" x2="12.2038045%" y2="30.0200298%" id="linearGradient-4">
+            <stop stop-color="#FFB61B" offset="0%"></stop>
+            <stop stop-color="#FF8C16" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2.84242398,0.0999755859 L742.361002,0.0999755859 L742.361002,0.0999755859 C743.465572,0.0999755859 744.361002,0.995406086 744.361002,2.09997559 L744.361002,67.0502469 L744.361002,102.099976 L744.361002,102.099976 C744.361002,103.204545 743.465572,104.099976 742.361002,104.099976 L2.84242398,104.099976 L2.84242398,104.099976 C1.73785448,104.099976 0.842423981,103.204545 0.842423981,102.099976 L0.842423981,2.09997559 L0.842423981,2.09997559 C0.842423981,0.995406086 1.73785448,0.0999755859 2.84242398,0.0999755859 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача_туров_768-" transform="translate(-2.000000, -579.000000)">
+            <g id="Group-20-Copy" transform="translate(9.000000, 535.000000)">
+                <g id="Rectangle-3-Copy-20" transform="translate(0.000000, 49.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Bitmap" mask="url(#mask-2)">
+                        <g transform="translate(3.000000, 3.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" stroke="none" fill="url(#linearGradient-4)" fill-rule="evenodd" transform="translate(372.601713, 52.099976) scale(-1, 1) translate(-372.601713, -52.099976) " xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                    <path d="M594,8.5 L594,12.5 L596,12.5 L596,8.5 L594,8.5 Z M594,15.5 L594,19.5 L596,19.5 L596,15.5 L594,15.5 Z M594,22.5 L594,26.5 L596,26.5 L596,22.5 L594,22.5 Z M594,29.5 L594,33.5 L596,33.5 L596,29.5 L594,29.5 Z M594,36.5 L594,40.5 L596,40.5 L596,36.5 L594,36.5 Z M594,43.5 L594,47.5 L596,47.5 L596,43.5 L594,43.5 Z M594,50.5 L594,54.5 L596,54.5 L596,50.5 L594,50.5 Z M594,57.5 L594,61.5 L596,61.5 L596,57.5 L594,57.5 Z M594,64.5 L594,68.5 L596,68.5 L596,64.5 L594,64.5 Z M594,71.5 L594,75.5 L596,75.5 L596,71.5 L594,71.5 Z M594,78.5 L594,82.5 L596,82.5 L596,78.5 L594,78.5 Z M594,85.5 L594,89.5 L596,89.5 L596,85.5 L594,85.5 Z M594,92.5 L594,96.5 L596,96.5 L596,92.5 L594,92.5 Z M594,99.5 L594,102.5489 L596,102.5489 L596,99.5 L594,99.5 Z" id="Line-3" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
