@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="121px" viewBox="0 0 320 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>7409F216-BDEB-4183-9356-F42D83B406DF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="56.0112715%" y1="88.8453486%" x2="56.0113013%" y2="8.00998808%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.938717165" offset="13.1722508%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.833588089" offset="35.0800838%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.690160779" offset="51.1140784%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.4159024" offset="75.1554528%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="курорты_320" transform="translate(0.000000, -563.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-4-Copy-4" transform="translate(0.000000, 520.000000)">
+                <g id="Group-3-Copy-8">
+                    <g id="Rectangle-3-Copy-41">
+                        <rect id="Rectangle-11" x="0" y="32.7717498" width="321.335947" height="130.472339"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
