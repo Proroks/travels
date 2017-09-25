@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="977px" height="97px" viewBox="0 0 977 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>6392D0BE-F3FD-4446-9CC1-F474D091BA92</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M654.34753,0 L795.464357,0 C796.00616,5.01147201 800.250445,8.91284179 805.405943,8.91284179 C810.561442,8.91284179 814.805727,5.01147201 815.34753,6.70574707e-14 L960,0 C962.209139,6.23816945e-14 964,1.790861 964,4 L964,78.5022047 L964,78.5022047 C964,80.7113437 962.209139,82.5022047 960,82.5022047 L815.393552,82.5022047 C815.401781,82.3358403 815.405943,82.1684063 815.405943,82 C815.405943,76.4771525 810.928791,72 805.405943,72 C799.883096,72 795.405943,76.4771525 795.405943,82 C795.405943,82.1684063 795.410106,82.3358403 795.418335,82.5022047 L654.393552,82.5022047 C654.401781,82.3358403 654.405943,82.1684063 654.405943,82 C654.405943,76.4771525 649.928791,72 644.405943,72 C638.883096,72 634.405943,76.4771525 634.405943,82 C634.405943,82.1684063 634.410106,82.3358403 634.418335,82.5022047 L493.393552,82.5022047 C493.401781,82.3358403 493.405943,82.1684063 493.405943,82 C493.405943,76.4771525 488.928791,72 483.405943,72 C477.883096,72 473.405943,76.4771525 473.405943,82 C473.405943,82.1684063 473.410106,82.3358403 473.418335,82.5022047 L331.393552,82.5022047 C331.401781,82.3358403 331.405943,82.1684063 331.405943,82 C331.405943,76.4771525 326.928791,72 321.405943,72 C315.883096,72 311.405943,76.4771525 311.405943,82 C311.405943,82.1684063 311.410106,82.3358403 311.418335,82.5022047 L170.693886,82.5022047 C170.767703,82.0122144 170.805968,81.5105758 170.805968,81 C170.805968,75.4771525 166.328815,71 160.805968,71 C155.28312,71 150.805968,75.4771525 150.805968,81 C150.805968,81.5105758 150.844232,82.0122144 150.91805,82.5022047 L5,82.5022047 C2.790861,82.5022047 1,80.7113437 1,78.5022047 L1,4 L1,4 C1,1.790861 2.790861,4.05812251e-16 5,0 L5,0 L150.859912,0 C151.401716,5.01147201 155.646001,8.91284179 160.801499,8.91284179 C165.956998,8.91284179 170.201282,5.01147201 170.743086,6.54254428e-13 L311.464357,0 C312.00616,5.01147201 316.250445,8.91284179 321.405943,8.91284179 C326.561442,8.91284179 330.805727,5.01147201 331.34753,6.70574707e-14 L473.464357,0 C474.00616,5.01147201 478.250445,8.91284179 483.405943,8.91284179 C488.561442,8.91284179 492.805727,5.01147201 493.34753,6.70574707e-14 L634.464357,0 C635.00616,5.01147201 639.250445,8.91284179 644.405943,8.91284179 C649.561442,8.91284179 653.805727,5.01147201 654.34753,1.03184128e-12 Z" id="path-1"></path>
+        <filter x="-1.2%" y="-10.9%" width="102.5%" height="129.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.41686481 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="160" y="-26" width="1.11782114" height="196.671602"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="196.671602" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-6" x="321" y="-37" width="1.11782114" height="196.671602"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="196.671602" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <rect id="path-8" x="483" y="-25" width="1.11782114" height="196.671602"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="196.671602" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <rect id="path-10" x="644" y="-37" width="1.11782114" height="196.671602"></rect>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="196.671602" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <rect id="path-12" x="805" y="-39" width="1.11782114" height="196.671602"></rect>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.11782114" height="196.671602" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="бронирование_1024" transform="translate(-25.000000, -477.000000)">
+            <g id="Group-9" transform="translate(31.000000, 481.000000)">
+                <g id="Rectangle-3-Copy-50">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-3" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-7)" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-6" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-9)" xlink:href="#path-8"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-4" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-11)" xlink:href="#path-10"></use>
+                    </g>
+                    <g id="Rectangle-2-Copy-5" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="4" stroke="#7F7F7F">
+                        <use mask="url(#mask-13)" xlink:href="#path-12"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
