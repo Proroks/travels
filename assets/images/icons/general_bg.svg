@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="276px" height="130px" viewBox="0 0 276 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
-    <title>F0CF2034-476B-4F51-8A92-6BACF0797243</title>
-    <desc>Created with sketchtool.</desc>
+<svg width="340px" height="130px" viewBox="0 0 340 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 7 Copy 3</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="92.1779367%" y1="40.6271845%" x2="15.323447%" y2="40.6271845%" id="linearGradient-1">
+        <linearGradient x1="100%" y1="40.6271845%" x2="0%" y2="40.6271845%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="7.2220335%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0331182065" offset="14.5065257%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.105751812" offset="21.8445656%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.216343976" offset="31.8740042%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.333220109" offset="39.7413163%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.496999547" offset="47.8547267%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.696274909" offset="58.2121557%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.894559556" offset="70.1001765%"></stop>
+            <stop stop-color="#FFFFFF" offset="80.6650816%"></stop>
+            <stop stop-color="#FFFFFF" offset="90.8978429%"></stop>
             <stop stop-color="#FFFFFF" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="сортировка_по_странам" transform="translate(-596.000000, -513.000000)" fill="url(#linearGradient-1)">
-            <g id="Rectangle-3-Copy-23" transform="translate(399.000000, 513.000000)">
-                <rect id="Rectangle-7" x="197" y="0" width="299.640486" height="130"></rect>
-            </g>
+        <g id="сортировка_по_странам" transform="translate(-1387.000000, -1642.000000)" fill="url(#linearGradient-1)">
+            <rect id="Rectangle-7-Copy-3" x="1387" y="1642" width="366" height="130"></rect>
         </g>
     </g>
 </svg>
