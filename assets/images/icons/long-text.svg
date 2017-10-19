@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="29px" viewBox="0 0 73 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>7FEBEEAB-29F0-460C-874F-F7823F225A20</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0.506218112%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="21.8494037%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.816491168" offset="49.8305963%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-1001.000000, -752.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-5-Copy-9" transform="translate(400.000000, 704.000000)">
+                <rect id="Rectangle-14" x="601" y="48" width="73" height="29"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

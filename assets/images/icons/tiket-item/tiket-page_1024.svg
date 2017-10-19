@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="317px" height="97px" viewBox="0 0 317 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>F733554B-EF2D-4600-BA16-7E4758C1827B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M271.375347,95 L4,95 C1.790861,95 2.705415e-16,93.209139 0,91 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L4,0 L271.376157,0 C271.374907,0.050398599 271.374278,0.100951444 271.374278,0.151651161 C271.374278,3.46535966 274.060569,6.15165116 277.374278,6.15165116 C280.687986,6.15165116 283.374278,3.46535966 283.374278,0.151651161 C283.374278,0.100951444 283.373649,0.0503985991 283.372399,-5.689893e-16 L311,0 C313.209139,-4.05812251e-16 315,1.790861 315,4 L315,91 C315,93.209139 313.209139,95 311,95 L283.373209,95 C283.309929,91.7410449 280.648353,89.1186279 277.374278,89.1186279 C274.100203,89.1186279 271.438627,91.7410449 271.375427,94.9999998 Z" id="path-1"></path>
+        <rect id="path-3" x="276.542022" y="5.84834884" width="1" height="105.270279"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="0.770968019" height="105.270279" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача_туров_1024" transform="translate(-31.000000, -246.000000)">
+            <g id="Group-13-Copy-25" transform="translate(32.000000, 247.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" stroke="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="Rectangle-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#FFFFFF">
+                            <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

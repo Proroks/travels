@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="122px" viewBox="0 0 392 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>F826A614-6D15-422B-8A2E-9A047ABDC1CA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-6.5%" y="-16.5%" width="113.1%" height="150.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0156862745   0 0 0 0 0.11372549   0 0 0 0 0.215686275  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M321.092973,96.0268241 L4,96.0268241 C1.790861,96.0268241 2.705415e-16,94.2359631 0,92.0268241 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,-2.09104698e-14 4,-2.13162821e-14 L4,-2.13162821e-14 L321.093975,-2.13162821e-14 C321.091323,0.0669006332 321.089984,0.13413916 321.089984,0.201690479 C321.089984,2.96388582 323.32806,5.20308757 326.088866,5.20308757 C328.849672,5.20308757 331.087748,2.96388582 331.087748,0.201690479 C331.087748,0.13413916 331.086409,0.0669006332 331.083757,-2.30093722e-14 L362.05865,-2.13162821e-14 C364.267789,-2.17220943e-14 366.05865,1.790861 366.05865,4 L366.05865,92.0268241 C366.05865,94.2359631 364.267789,96.0268241 362.05865,96.0268241 L331.084759,96.0268241 C330.992819,93.3454758 328.791266,91.200014 326.088866,91.200014 C323.386465,91.200014 321.184912,93.3454758 321.092973,96.0268241 Z" id="path-2"></path>
+        <rect id="path-4" x="325.481857" y="4.7986452" width="1.04000595" height="86.3756136"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.04000595" height="86.3756136" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="head" transform="translate(-390.000000, -234.000000)">
+            <g id="Group-13-Copy-28" transform="translate(403.000000, 238.000000)">
+                <g id="Group-2">
+                    <g id="Group" filter="url(#filter-1)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="#01B2FF" xlink:href="#path-2"></use>
+                        <rect id="Rectangle" fill="#E53A3A" mask="url(#mask-3)" x="360.498904" y="0" width="6.58319119" height="96.8205128"></rect>
+                        <g id="Rectangle-2" stroke-dasharray="2,4" mask="url(#mask-3)" stroke-width="2" stroke="#006187">
+                            <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

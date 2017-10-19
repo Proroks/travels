@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="149px" height="111px" viewBox="0 0 149 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 4</title>
-    <desc>Created with Sketch.</desc>
+<svg width="229px" height="111px" viewBox="0 0 229 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>A3DD20F3-8CE4-4D32-9027-AF4FFF130732</title>
+    <desc>Created with sketchtool.</desc>
     <defs>
-        <linearGradient x1="76.9778622%" y1="23.4252732%" x2="22.8760912%" y2="23.4252736%" id="linearGradient-1">
+        <linearGradient x1="100%" y1="25.7433742%" x2="0%" y2="25.7454067%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0.933530578" offset="22.230789%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0.710654438" offset="45.7825752%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0.428781703" offset="57.6752684%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0.195737092" offset="73.8601902%"></stop>
+            <stop stop-color="#FFFFFF" offset="9.76391846%"></stop>
+            <stop stop-color="#FFFFFF" offset="23.3258632%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.799818841" offset="35.2933051%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.485054348" offset="48.3877955%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.251896513" offset="60.5561954%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0800498188" offset="73.2435342%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="82.789549%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="выдача-по-стране" transform="translate(-605.000000, -666.000000)" fill="url(#linearGradient-1)">
-            <g id="Group-5" transform="translate(400.000000, 666.000000)">
-                <g id="Rectangle-3-Copy-29">
-                    <g id="Bitmap">
-                        <rect id="Rectangle-4" x="157.429089" y="0" width="209.720001" height="110.5"></rect>
-                    </g>
-                </g>
+        <g id="выдача-по-стране" transform="translate(-528.000000, -822.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-5-Copy-6" transform="translate(400.000000, 822.000000)">
+                <rect id="Rectangle-4-Copy" x="80" y="0" width="276.720001" height="110.400002"></rect>
             </g>
         </g>
     </g>

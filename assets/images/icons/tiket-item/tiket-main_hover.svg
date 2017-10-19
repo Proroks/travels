@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="273px" height="119px" viewBox="0 0 273 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M234.374278,116.966977 L3.08387208,116.966977 C1.38069656,116.966977 0,115.657779 0,114.042802 L0,2.92417442 C0,1.30919748 1.38069656,2.96666451e-16 3.08387208,0 L234.374278,0 C234.374278,3.22995388 237.135671,5.84834884 240.542022,5.84834884 C243.948373,5.84834884 246.709766,3.22995388 246.709766,-1.77635684e-15 L268.296871,0 C270.000046,-2.96666451e-16 271.380743,1.30919748 271.380743,2.92417442 L271.380743,114.042802 C271.380743,115.657779 270.000046,116.966977 268.296871,116.966977 L246.709766,116.966977 C246.709766,113.737023 243.948373,111.118628 240.542022,111.118628 C237.135671,111.118628 234.374278,113.737023 234.374278,116.966977 Z" id="path-1"></path>
+        <rect id="path-3" x="240.542022" y="5.84834884" width="1" height="105.270279"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="0.770968019" height="105.270279" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-1248.000000, -423.000000)">
+            <g id="Group-8" transform="translate(399.000000, 222.000000)">
+                <g id="Group-15-Copy-13" transform="translate(850.000000, 202.000000)">
+                    <g id="Group-4">
+                        <g id="Group-Copy-2">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" stroke="#FFFFFF" fill-opacity="0.129500679" fill="#48C8FF" xlink:href="#path-1"></use>
+                            <g id="Rectangle-2-Copy-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#FFFFFF">
+                                <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

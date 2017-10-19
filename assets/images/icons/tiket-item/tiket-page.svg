@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="98px" viewBox="0 0 368 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>56E2FD67-0E73-4D83-BDFF-45B6AC63803C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M321.092973,96.0268241 L4,96.0268241 C1.790861,96.0268241 2.705415e-16,94.2359631 0,92.0268241 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,-2.09104698e-14 4,-2.13162821e-14 L4,-2.13162821e-14 L321.093975,-2.13162821e-14 C321.091323,0.0669006332 321.089984,0.13413916 321.089984,0.201690479 C321.089984,2.96388582 323.32806,5.20308757 326.088866,5.20308757 C328.849672,5.20308757 331.087748,2.96388582 331.087748,0.201690479 C331.087748,0.13413916 331.086409,0.0669006332 331.083757,-2.30093722e-14 L362.05865,-2.13162821e-14 C364.267789,-2.17220943e-14 366.05865,1.790861 366.05865,4 L366.05865,92.0268241 C366.05865,94.2359631 364.267789,96.0268241 362.05865,96.0268241 L331.084759,96.0268241 C330.992819,93.3454758 328.791266,91.200014 326.088866,91.200014 C323.386465,91.200014 321.184912,93.3454758 321.092973,96.0268241 Z" id="path-1"></path>
+        <rect id="path-3" x="325.481857" y="4.7986452" width="1.04000595" height="86.3756136"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.04000595" height="86.3756136" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране" transform="translate(-775.000000, -231.000000)">
+            <g id="Group-13-Copy-26" transform="translate(776.000000, 232.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" stroke="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="Rectangle-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#FFFFFF">
+                            <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

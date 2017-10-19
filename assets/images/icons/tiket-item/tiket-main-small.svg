@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="54px" viewBox="0 0 283 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>791ECA40-0DC9-48CF-9E45-FE2CC7940DC3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M112.803791,51.6688335 L4,51.6688335 L4,51.6688335 C1.790861,51.6688335 2.705415e-16,49.8779725 0,47.6688335 L0,4 L0,4 C-2.705415e-16,1.790861 1.790861,-2.70281222e-15 4,-3.10862447e-15 L4,0 L112.792211,0 C112.792211,2.56091368 114.856857,4.6369444 117.403726,4.6369444 C119.950595,4.6369444 122.01524,2.56091368 122.01524,-3.49054119e-13 L277,0 L277,-4.4408921e-16 C279.209139,-8.49901461e-16 281,1.790861 281,4 L281,47.6688335 C281,49.8779725 279.209139,51.6688335 277,51.6688335 L122.00366,51.6688335 C121.834786,49.2624786 119.839856,47.3630556 117.403726,47.3630556 C114.967595,47.3630556 112.972666,49.2624786 112.803791,51.6688335 Z" id="path-1"></path>
+        <rect id="path-3" x="116.675045" y="-4.5185071" width="1.04471782" height="56.8517961"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.04471782" height="56.8517961" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная_320" transform="translate(-17.000000, -289.000000)">
+            <g id="Group-13-Copy-27" transform="translate(18.000000, 290.000000)">
+                <g id="Group-2">
+                    <g id="Group" transform="translate(0.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" stroke="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="Rectangle-2" stroke-dasharray="2,4" mask="url(#mask-2)" stroke-width="2" stroke="#FFFFFF">
+                            <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
