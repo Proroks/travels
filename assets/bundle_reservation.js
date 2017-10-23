@@ -7,7 +7,7 @@ module.exports = function() {
   var latLng = new google.maps.LatLng(39.934561, 32.476628);
   var homeLatLng = new google.maps.LatLng(39.959105, 32.857515);
 
-  var map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('reservation__map'), {
     zoom: 6,
     center: latLng,
     mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -15,7 +15,7 @@ module.exports = function() {
   var marker = new MarkerWithLabel({
     position: homeLatLng,
     map: map,
-    icon: "/assets/images/icons/map_icons.svg",
+    icon: "/map_icons.svg",
     labelContent: "Анкара",
     labelAnchor: new google.maps.Point(81, 45),
     labelClass: "labels", // the CSS class for the label

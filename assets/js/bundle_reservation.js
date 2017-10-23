@@ -7,16 +7,16 @@ module.exports = function() {
   var latLng = new google.maps.LatLng(39.934561, 32.476628);
   var homeLatLng = new google.maps.LatLng(39.959105, 32.857515);
 
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 6,
+  var map = new google.maps.Map(document.getElementById('reservation__map'), {
+    zoom: 5,
     center: latLng,
+    disableDefaultUI: true,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
   var marker = new MarkerWithLabel({
     position: homeLatLng,
     map: map,
-    icon: "/assets/images/icons/map_icons.svg",
-    labelContent: "Анкара",
+    icon: "/assets/images/icons/map_icon-reservation.svg",
     labelAnchor: new google.maps.Point(81, 45),
     labelClass: "labels", // the CSS class for the label
     labelInBackground: false
