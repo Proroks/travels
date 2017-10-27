@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="110px" viewBox="0 0 57 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>0056B3D9-211B-4EC3-820C-2E835A3FEB83</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="25.7433742%" x2="14.0972085%" y2="25.7433742%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.900305707" offset="21.4665667%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.675583107" offset="41.8726777%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.385699728" offset="60.0936841%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.187358469" offset="74.5352331%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0348731884" offset="90.1938399%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача-по-стране_новый_фильтр" transform="translate(-508.000000, -741.000000)" fill="url(#linearGradient-1)">
+            <rect id="Rectangle-4-Copy-7" x="499" y="741" width="66" height="110"></rect>
+        </g>
+    </g>
+</svg>
