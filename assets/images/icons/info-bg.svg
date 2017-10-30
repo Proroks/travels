@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="142px" viewBox="0 0 276 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>ED280A1C-25DA-452E-8AA6-DACAEE059C2A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10,2.05075342e-15 L121.022066,2.05075342e-15 L136.969363,2.05075342e-15 L266,2.05075342e-15 L266,1.77635684e-15 C271.522847,7.61826213e-16 276,4.4771525 276,10 L276,132 L276,132 C276,137.522847 271.522847,142 266,142 L10,142 L10,142 C4.4771525,142 6.76353751e-16,137.522847 0,132 L0,10 L0,10 C-6.76353751e-16,4.4771525 4.4771525,2.79088747e-15 10,1.77635684e-15 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-1164.000000, -632.000000)">
+            <g id="Group-7-Copy" transform="translate(1113.000000, 584.000000)">
+                <g id="Group-5" transform="translate(51.000000, 48.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F87B7B" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#F24841">
+                        <g transform="translate(-87.000000, -105.000000)">
+                            <rect id="Path" x="-39.6410896" y="101.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-4" x="33.3589104" y="130.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-8" x="111.35891" y="153.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-12" x="180.35891" y="186.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-2" x="-11.6410896" y="125.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-5" x="61.3589104" y="154.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-9" x="139.35891" y="177.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-13" x="208.35891" y="210.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy" x="-25.6410896" y="112.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-6" x="47.3589104" y="141.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-10" x="125.35891" y="164.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-14" x="194.35891" y="197.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-3" x="2.3589104" y="136.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-7" x="75.3589104" y="165.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-11" x="153.35891" y="188.35891" width="290" height="8"></rect>
+                            <rect id="Path-Copy-15" x="222.35891" y="221.35891" width="290" height="8"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
