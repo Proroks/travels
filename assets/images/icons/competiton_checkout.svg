@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>6B910280-F82A-409A-AA09-AA0286A259EF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3.52941176" width="10.5882353" height="10.5882353"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="выдача" transform="translate(-1284.000000, -729.000000)">
+            <g id="Group-14-Copy" transform="translate(1284.000000, 730.000000)">
+                <g id="Rectangle-13-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#B4D1DD" stroke-width="2" x="1" y="4.52941176" width="8.58823529" height="8.58823529"></rect>
+                </g>
+                <path d="M2.50688038,7.24877612 C2.2009328,6.90106738 1.63154902,6.83673555 1.23512611,7.10508697 C0.838703203,7.37343838 0.765358456,7.87285382 1.07130603,8.22056256 L5.21150845,12.9258934 C5.59909397,13.3663835 6.3693491,13.3305561 6.70164625,12.8565816 L14.8655268,1.21197081 C15.1278315,0.837830563 14.9946784,0.348020105 14.5681209,0.117948532 C14.1415634,-0.112123042 13.5831303,0.00466769431 13.3208256,0.378807941 L5.84479117,11.0423043 L2.50688038,7.24877612 Z" id="Path-20-Copy" stroke="#3AB293" fill="#3AB293" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
