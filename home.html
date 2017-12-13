@@ -236,41 +236,24 @@
             <div class="hyde__info-subtitle"><span>Дешевле чем у всех</span><span class="rectangle">?
                 <div class="rectangle--open"><span>Благодоря разработанному нами алгоритму по оптимизации цен на популярные направления, мы действительно предлагаем вам самые низкие цены на рынке</span></div></span></div>
             <div class="tiket">
-              <div class="tiket__title">Выберите бюджет</div>
               <div class="tiket__inner">
                 <div class="tiket__item ticketButtonPrice" data-price="15000" data-price-value="1">
                   <div class="tiket__item-title"><span>15 000</span><img src="assets/images/icons/rub.svg"></div>
-                  <div class="tiket__item-link"><a href="#">Найдено 98 туров</a></div>
                 </div>
                 <div class="tiket__item ticketButtonPrice" data-price="30000" data-price-value="2">
                   <div class="tiket__item-title"><span>30 000</span><img src="assets/images/icons/rub.svg"></div>
-                  <div class="tiket__item-link"><a href="#">Найдено 98 туров</a></div>
                 </div>
                 <div class="tiket__item ticketButtonPrice" data-price="45000" data-price-value="3">
                   <div class="tiket__item-title"><span>45 000</span><img src="assets/images/icons/rub.svg"></div>
-                  <div class="tiket__item-link"><a href="#">Найдено 98 туров</a></div>
                 </div>
+                <div class="tiket__inner-btn"><a class="btn btn--orange findTourButton" href="#">Найти туры</a></div>
+              </div>
+              <div class="tiket__setting">
+                <div class="tiket__setting-title">Расширенные параметры<span></span></div>
               </div>
               <div class="tiket__btn">
                 <div class="tiket__btn-item">
-                  <select class="types">
-                    <option disabled="disabled">Сколько вас</option>
-                    <option val="pu">1 взрослый</option>
-                    <option val="pu">2 взрослых</option>
-                    <option disabled="disabled">Туры с детьми</option>
-                    <option val="pg">До 2х лет</option>
-                    <option val="pg">От 2х до 12 лет</option>
-                    <option disabled="disabled">Виды отдыха</option>
-                    <option val="pl">Пляжный отдых</option>
-                    <option val="pg">Горные лыжи</option>
-                    <option val="pt">Экскурсии</option>
-                    <option disabled="disabled">когда</option>
-                    <option val="pg">На выходные</option>
-                    <option val="pg">На неделю</option>
-                    <option val="pu">Любой отдых</option>
-                  </select>
-                </div>
-                <div class="tiket__btn-item scroll">
+                  <label>Куда?</label>
                   <select class="sity">
                     <option>Пляжный отдых</option>
                     <option>Пляжный отдых</option>
@@ -287,7 +270,23 @@
                     <option>Любой Вариант</option>
                   </select>
                 </div>
-                <div class="tiket__btn-item"><a class="btn btn--orange findTourButton" href="#">Найти туры</a></div>
+                <div class="tiket__btn-item quantity-people">
+                  <label>Сколько вас?</label>
+                  <div class="quantity-people__input"><span></span>
+                    <div class="quantity-people__input-open"></div>
+                  </div>
+                </div>
+                <div class="tiket__btn-item scroll">
+                  <label>Вид отдыха?</label>
+                  <select class="types">
+                    <option val="pl">Пляжный отдых</option>
+                    <option val="pg">Горные лыжи</option>
+                    <option val="pt">Экскурсии</option>
+                    <option val="pg">На выходные</option>
+                    <option val="pg">На неделю</option>
+                    <option val="pu">Любой отдых</option>
+                  </select>
+                </div>
                 <div class="tiket__baner info-settings">
                   <div class="info-settings__inner">
                     <div class="info-settings__inner-close"><?xml version="1.0" encoding="UTF-8"?>
