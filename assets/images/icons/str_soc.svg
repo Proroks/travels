@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="18px" viewBox="0 0 12 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 4 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M548,1027 L1372,1027 C1374.20914,1027 1376,1028.79086 1376,1031 L1376,1420 C1376,1422.20914 1374.20914,1424 1372,1424 L548,1424 C545.790861,1424 544,1422.20914 544,1420 L544,1031 C544,1028.79086 545.790861,1027 548,1027 Z" id="path-1"></path>
+        <filter x="-1.9%" y="-2.8%" width="103.8%" height="108.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.393540534 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M1090.74668,1177 L1246.25332,1177 C1257.15911,1177 1266,1185.84089 1266,1196.74668 L1266,1196.74668 C1266,1207.65247 1257.15911,1216.49336 1246.25332,1216.49336 L1246.00489,1216.49336 L1240.292,1226 L1234.41399,1216.49336 L1090.74668,1216.49336 C1079.84089,1216.49336 1071,1207.65247 1071,1196.74668 L1071,1196.74668 C1071,1185.84089 1079.84089,1177 1090.74668,1177 Z" id="path-4"></path>
+        <filter x="-3.6%" y="-18.4%" width="107.2%" height="128.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.324247056 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="подбор_тура-copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1234.000000, -1175.000000)">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask-Copy-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <rect id="Rectangle-3-Copy-2" fill="#E7ECEE" x="960" y="1027" width="416" height="397"></rect>
+        <g id="Rectangle-4-Copy-2" transform="translate(1168.500000, 1201.500000) scale(1, -1) translate(-1168.500000, -1201.500000) ">
+            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+        </g>
+    </g>
+</svg>
