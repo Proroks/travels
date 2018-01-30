@@ -270,52 +270,67 @@
       </div>
       <div class="header__info hyde">
         <div class="container">
-          <div class="hyde__img"><img src="assets/images/icons/man.gif"></div>
           <div class="hyde__info">
             <div class="hyde__info-title">
               <h1>Туры по фиксированным ценам</h1>
             </div>
-            <div class="hyde__info-subtitle"><span>Дешевле чем у всех</span><span class="rectangle">?
-                <div class="rectangle--open"><span>Благодоря разработанному нами алгоритму по оптимизации цен на популярные направления, мы действительно предлагаем вам самые низкие цены на рынке</span></div></span></div>
+            <div class="hyde__info-subtitle">
+              <label><span>Фиксатур</span>
+                <input type="checkbox"><span>Поиск туров</span>
+              </label>
+            </div>
             <div class="tiket parentOfSearchBlock">
-              <div class="tiket__inner">
-                <div class="tiket__item ticketButtonPrice" data-price="15000" data-price-value="1">
-                  <div class="tiket__item-title"><span>15 000</span><img src="assets/images/icons/rub.svg"></div>
-                </div>
-                <div class="tiket__item ticketButtonPrice" data-price="30000" data-price-value="2">
-                  <div class="tiket__item-title"><span>30 000</span><img src="assets/images/icons/rub.svg"></div>
-                </div>
-                <div class="tiket__item ticketButtonPrice" data-price="45000" data-price-value="3">
-                  <div class="tiket__item-title"><span>45 000</span><img src="assets/images/icons/rub.svg"></div>
-                </div>
-                <div class="tiket__inner-btn"><a class="btn btn--orange findTourButton" href="#">Найти туры</a></div>
-              </div>
-              <div class="tiket__setting">
-                <div class="tiket__setting-title openAdvancedSearchBlock">Расширенные параметры<span></span></div>
-              </div>
               <div class="tiket__btn blockOfAdditionalSearch">
                 <div class="tiket__btn-item">
                   <label>Куда?</label>
                   <select class="sity">
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Пляжный отдых</option>
-                    <option>Горные лыжи</option>
-                    <option>Экскурсии</option>
-                    <option>Туры с детьми</option>
-                    <option>Любой Вариант</option>
+                    <optgroup label="популярные страны">
+                      <option value="msk" price="от 24 100 ₽" visa="Без визы">Пляжный отдых</option>
+                      <option value="msk" price="от 234 100 ₽" visa="Онлайн-виза">Пляжный отдых</option>
+                      <option value="msk" price="от 7 100 ₽" visa="Виза">Пляжный отдых</option>
+                      <option value="msk" price="от 59 100 ₽" visa="Без визы">Пляжный отдых</option>
+                      <option value="msk" price="32000" visa="Виза">Пляжный отдых</option>
+                    </optgroup>
+                    <optgroup label="все направления">
+                      <option>Пляжный отдых</option>
+                      <option>Пляжный отдых</option>
+                      <option>Пляжный отдых</option>
+                      <option>Пляжный отдых</option>
+                      <option>Горные лыжи</option>
+                      <option>Экскурсии</option>
+                      <option>Туры с детьми</option>
+                      <option>Любой Вариант</option>
+                    </optgroup>
                   </select>
                 </div>
-                <div class="tiket__btn-item quantity-people">
+                <div class="tiket__btn-item colendar_icon">
+                  <label>Когда?</label>
+                  <input id="date_select">
+                </div>
+                <div class="tiket__btn-item">
+                  <label>На сколько?</label>
+                  <div class="how-day">
+                    <div class="how-day__input">на 
+                      <div class="how-day__input-min">7 </div><span>- </span>
+                      <div class="how-day__input-max">9 </div><span>ночей</span>
+                    </div>
+                    <div class="how-day__open">
+                      <div class="how-day__amount">на
+                        <div class="how-day__amount-min--down"></div>
+                        <div class="how-day__amount-min"></div>
+                        <div class="how-day__amount-min--up"></div><span>—</span>
+                        <div class="how-day__amount-max--down"></div>
+                        <div class="how-day__amount-max"></div>
+                        <div class="how-day__amount-max--up"></div>
+                      </div>
+                      <div class="how-day__slider"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tiket__btn-item quantity-people quantityBlock">
                   <label>Сколько вас?</label>
-                  <div class="quantity-people__input"><span>2 взрослых + 1 младенец</span>
-                    <div class="quantity-people__input-open quantity-popap">
+                  <div class="quantity-people__input quanityField"><span>2 взрослых + 1 младенец</span>
+                    <div class="quantity-people__input-open quantity-popap quantityPeopleBlock mainQuantityPeopleBlock">
                       <div class="quantity-popap__line">
                         <div class="quantity-popap__line-title">Взрослые</div>
                         <div class="quantity-popap__line-inner">
@@ -347,46 +362,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="tiket__btn-item scroll iconSearchType anyIcon">
-                  <label>Вид отдыха?</label>
-                  <select class="types">
-                    <option value="beach">Пляжный отдых</option>
-                    <option value="ski">Горные лыжи</option>
-                    <option value="excursion">Экскурсии</option>
-                    <option value="weekend">На выходные</option>
-                    <option value="week">На неделю</option>
-                    <option value="any">Любой отдых</option>
-                  </select>
-                </div>
-                <div class="tiket__baner info-settings">
-                  <div class="info-settings__inner">
-                    <div class="info-settings__inner-close"><?xml version="1.0" encoding="UTF-8"?>
-<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
-    <title>F640F93A-4B78-4F2A-BD81-DB31A69BBEA1</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="главная-copy" transform="translate(-968.000000, -643.000000)" fill-rule="nonzero" fill="#6A7886">
-            <g id="Group-7" transform="translate(664.000000, 584.000000)">
-                <g id="Group-9" transform="translate(309.759272, 64.607394) rotate(45.000000) translate(-309.759272, -64.607394) translate(303.259272, 58.107394)">
-                    <path d="M5.49838778,1.24278741 L5.49838778,11.969486 C5.49838778,12.5217707 5.94610303,12.969486 6.49838778,12.969486 C7.05067253,12.969486 7.49838778,12.5217707 7.49838778,11.969486 L7.49838778,1.24278741 C7.49838778,0.690502664 7.05067253,0.242787414 6.49838778,0.242787414 C5.94610303,0.242787414 5.49838778,0.690502664 5.49838778,1.24278741 Z" id="Line-3"></path>
-                    <path d="M11.7266985,5.63941457 L1,5.63941457 C0.44771525,5.63941457 -5.68434189e-13,6.08712982 -5.68434189e-13,6.63941457 C-5.68434189e-13,7.19169932 0.44771525,7.63941457 1,7.63941457 L11.7266985,7.63941457 C12.2789833,7.63941457 12.7266985,7.19169932 12.7266985,6.63941457 C12.7266985,6.08712982 12.2789833,5.63941457 11.7266985,5.63941457 Z" id="Line-3-Copy"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
-                    </div>
-                    <div class="info-settings__inner-text">Обратите внимание, что кроме цены вы можете выбрать дополнительные критерии поиска и страну</div>
-                    <div class="info-settings__inner-checkbox">
-                      <input type="checkbox" id="ok">
-                      <label for="ok">Спасибо, больше не показывать</label>
-                    </div>
-                  </div>
-                </div>
+                <div class="tiket__btn-item"><a class="btn btn--folow" href="#">Найти туры</a></div>
               </div>
-              <div class="tiket__btn-mobile"><a class="btn btn--orange" href="#">Найти туры</a></div>
             </div>
           </div>
         </div>
@@ -906,6 +883,7 @@
       </div>
     </div>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/main.min.js"></script>
   </body>
 </html>
