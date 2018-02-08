@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="21px" viewBox="0 0 17 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.8%" y="-2.5%" width="104.0%" height="107.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-1.6%" y="-1.4%" width="104.0%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="поиск1_1920-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1045.000000, -737.000000)">
+        <g id="Group-4" filter="url(#filter-1)" transform="translate(625.000000, 480.000000)" fill="#FFFFFF">
+            <g id="Group-Copy" transform="translate(250.000000, 0.000000)">
+                <g id="Calendar" filter="url(#filter-2)">
+                    <g id="Group-3" transform="translate(174.000000, 259.000000)">
+                        <polygon id="+" points="4.48974609 4.53369141 4.48974609 7.63916016 3.12011719 7.63916016 3.12011719 4.53369141 0 4.53369141 0 3.09814453 3.12011719 3.09814453 3.12011719 0 4.48974609 0 4.48974609 3.09814453 7.6171875 3.09814453 7.6171875 4.53369141"></polygon>
+                        <polygon id="_" points="6.89208984 10.2524414 0 10.2524414 0 9 6.89208984 9"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
