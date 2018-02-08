@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="134px" viewBox="0 0 24 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M457.050508,110 L4,110 C1.790861,110 2.705415e-16,108.209139 0,106 L-8.8817842e-16,4 C-1.15871992e-15,1.790861 1.790861,4.05812251e-16 4,0 L457.032926,0 C457.032926,3.84850007 460.166932,6.96832579 464.032926,6.96832579 C467.898919,6.96832579 471.032926,3.84850007 471.032926,1.21680443e-13 L640,0 C642.209139,-4.05812251e-16 644,1.790861 644,4 L644,106 C644,108.209139 642.209139,110 640,110 L471.015344,110 C471.026999,109.835597 471.032926,109.669618 471.032926,109.502262 C471.032926,105.653762 467.898919,102.533937 464.032926,102.533937 C460.166932,102.533937 457.032926,105.653762 457.032926,109.502262 C457.032926,109.669618 457.038852,109.835597 457.050508,110 Z" id="path-1"></path>
+        <filter x="-1.8%" y="-8.6%" width="103.6%" height="120.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.332484149 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100.889698%" y1="30.0200313%" x2="0%" y2="30.0200313%" id="linearGradient-4">
+            <stop stop-color="#FFB61B" offset="0%"></stop>
+            <stop stop-color="#FF8C16" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2,0 L631.361002,0 C632.465572,-6.29904129e-14 633.361002,0.8954305 633.361002,2 L633.361002,66.9502713 L633.361002,102 C633.361002,103.104569 632.465572,104 631.361002,104 L2,104 C0.8954305,104 7.98370909e-15,103.104569 0,102 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Artboard-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-582.000000, -174.000000)">
+        <g id="Rectangle-3-Copy-20" transform="translate(130.000000, 186.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Bitmap" mask="url(#mask-2)">
+                <g transform="translate(7.000000, 3.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="url(#linearGradient-4)" fill-rule="evenodd" transform="translate(316.680501, 52.000000) scale(-1, 1) translate(-316.680501, -52.000000) " xlink:href="#path-5"></use>
+                </g>
+            </g>
+            <path d="M463,8.5 L463,12.5 L465,12.5 L465,8.5 L463,8.5 Z M463,15.5 L463,19.5 L465,19.5 L465,15.5 L463,15.5 Z M463,22.5 L463,26.5 L465,26.5 L465,22.5 L463,22.5 Z M463,29.5 L463,33.5 L465,33.5 L465,29.5 L463,29.5 Z M463,36.5 L463,40.5 L465,40.5 L465,36.5 L463,36.5 Z M463,43.5 L463,47.5 L465,47.5 L465,43.5 L463,43.5 Z M463,50.5 L463,54.5 L465,54.5 L465,50.5 L463,50.5 Z M463,57.5 L463,61.5 L465,61.5 L465,57.5 L463,57.5 Z M463,64.5 L463,68.5 L465,68.5 L465,64.5 L463,64.5 Z M463,71.5 L463,75.5 L465,75.5 L465,71.5 L463,71.5 Z M463,78.5 L463,82.5 L465,82.5 L465,78.5 L463,78.5 Z M463,85.5 L463,89.5 L465,89.5 L465,85.5 L463,85.5 Z M463,92.5 L463,96.5 L465,96.5 L465,92.5 L463,92.5 Z M463,99.5 L463,102.5489 L465,102.5489 L465,99.5 L463,99.5 Z" id="Line-3" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
