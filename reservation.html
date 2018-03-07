@@ -396,31 +396,50 @@
           <div class="reservation__right">
             <div class="reservation__right-title">Информация о туре</div>
             <div class="reservation__right-inner info-tur">
+              <div class="info-tur__data">
+                <div class="info-tur__data-price">15 000<img src="assets/images/icons/rub.svg"></div>
+                <div class="info-tur__data-item">
+                  <div class="info-tur__data-info">1<span>взрослый</span></div>
+                  <div class="info-tur__data-info">7<span>ночей</span></div>
+                </div>
+              </div>
+              <div class="info-tur__title">Перелёт включён</div>
               <div class="info-tur__item">
                 <div class="info-tur__item-icon"><img src="assets/images/icons/air_blue.svg"></div>
                 <div class="info-tur__item-text">
-                  <div class="info-tur__name">Перелёт включён</div>
-                  <div class="info-tur__subname">(туда – обратно) </div>
+                  <div class="info-tur__name">Туда: 04.03.2018</div>
+                  <div class="info-tur__name">Домодедово (DME) - Дубаи (DWC)</div>
+                  <div class="info-tur__name"><img src="assets/images/icons/teztour.png"></div>
                 </div>
               </div>
+              <div class="info-tur__item">
+                <div class="info-tur__item-icon"><img src="assets/images/icons/air_back.svg"></div>
+                <div class="info-tur__item-text">
+                  <div class="info-tur__name">Туда: 04.03.2018</div>
+                  <div class="info-tur__name">Домодедово (DME) - Дубаи (DWC)</div>
+                  <div class="info-tur__name"><img src="assets/images/icons/teztour.png"></div>
+                </div>
+              </div>
+              <div class="info-tur__title">Также включены</div>
               <div class="info-tur__item">
                 <div class="info-tur__item-icon"><img src="assets/images/icons/sports-car.svg"></div>
                 <div class="info-tur__item-text">
                   <div class="info-tur__name">Трансфер включён</div>
-                  <div class="info-tur__subname">от аэропорта до отеля и обратно</div>
+                  <div class="info-tur__subname error">Необходимо уточнение</div>
                 </div>
               </div>
+              <div class="info-tur__item">
+                <div class="info-tur__item-icon"><img src="assets/images/icons/med.svg"></div>
+                <div class="info-tur__item-text">
+                  <div class="info-tur__name">Медицинская страховка</div>
+                </div>
+              </div>
+              <div class="info-tur__title">Проживание</div>
               <div class="info-tur__item">
                 <div class="info-tur__item-icon"><img src="assets/images/icons/sgl.svg"></div>
                 <div class="info-tur__item-text">
                   <div class="info-tur__name">Стандартный номер</div>
                   <div class="info-tur__subname">Размещение: SGL (двуспальное)</div>
-                </div>
-              </div>
-              <div class="info-tur__item">
-                <div class="info-tur__item-icon"><img src="assets/images/icons/vosk.svg"></div>
-                <div class="info-tur__item-text">
-                  <div class="info-tur__name">Виза требуется</div>
                 </div>
               </div>
               <div class="info-tur__item">
@@ -430,18 +449,12 @@
                   <div class="info-tur__subname">BB (завтрак + ужин)</div>
                 </div>
               </div>
-              <div class="info-tur__item">
-                <div class="info-tur__item-icon"><img src="assets/images/icons/med.svg"></div>
-                <div class="info-tur__item-text">
-                  <div class="info-tur__name">Медицинская страховка</div>
-                </div>
+              <div class="info-tur__title">Туроператор</div>
+              <div class="info-tur__item tour-operator">
+                <div class="info-tur__item-icon"><img src="assets/images/icons/teztour.png"></div>
               </div>
-              <div class="info-tur__data">
-                <div class="info-tur__data-price">15 000<img src="assets/images/icons/rub.svg"></div>
-                <div class="info-tur__data-item">
-                  <div class="info-tur__data-info">1<span>взрослый</span></div>
-                  <div class="info-tur__data-info">7<span>ночей</span></div>
-                </div>
+              <div class="info-tur__warning"><img src="assets/images/icons/vosk.svg"><span>Виза требуется</span>
+                <div class="info-tur__warning-text">Если у вас нет визы в эту страну, то мы оформим ее для вас, для этого при оформлении тура необходимо поставить галочку</div>
               </div>
             </div>
           </div>
@@ -472,7 +485,7 @@
               <input placeholder="Ваш телефон">
             </div>
             <div class="tourist-form__btn"><a class="btn btn--folow" href="#">Продолжить</a>
-              <div class="tourist-form__btn-text">Нажимая кнопку "Продолжить" я принимаю<span> пользовательское соглашение</span></div>
+              <div class="tourist-form__btn-text">Нажимая кнопку "Продолжить" я принимаю<span> пользовательское соглашение </span></div>
             </div>
           </div>
           <div class="tourist-form__open tourist-info">
@@ -675,13 +688,14 @@
       </div>
       <div class="footer__bottom">
         <div class="container">
-          <div class="footer__bottom-left"><span>+7 (495) 123-45-67</span><span>г.Москва, метро Парк Культуры, Зубовский бульвар д.13, офис 41</span>
-            <div class="footer__bottom-text">© 2017, FixTravel –  туры по фиксированным ценам</div>
+          <div class="footer__bottom-left">
+            <div class="footer__bottom-text">© 2017, FixTravel –  туры по фиксированным ценам</div><span>+7 (495) 123-45-67</span>
           </div>
           <div class="footer__bottom-right"><span>Наши партнеры:</span>
             <div class="footer__bottom-partners"><img src="assets/images/icons/partners.png"></div>
             <div class="footer__bottom-text">© 2017, FixTravel –  туры по фиксированным ценам</div>
           </div>
+          <div class="footer__bottom-addres"><span>Адрес: г.Москва, метро Парк Культуры, Зубовский бульвар д.13, офис 41<br>Услуги предоставляет: ООО "ТУР СЕРВИС", ИНН 7728335679, КПП 770401001<br>Для корреспондеции: г.Москва, метро Парк Культуры, Зубовский бульвар д.13, офис 41, Индекс 119021</span></div>
         </div>
       </div>
     </footer>
