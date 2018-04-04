@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>6970A7C8-6AD9-40C2-A359-42B4C4C3235D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Партнёрка" transform="translate(-926.000000, -1900.000000)" fill-rule="nonzero">
+            <g id="bar-chart" transform="translate(926.000000, 1900.000000)">
+                <path d="M68,18 L67.142795,18 L53,24.7500476 L53,48 L68,40.3928834 C68,40.3927474 68,18 68,18 Z" id="Shape" fill="#61BFAF"></path>
+                <polygon id="Shape" fill="#37A18E" points="53 24.7500476 38.857205 18 38 18 38 40.3928834 53 48 53 24.7500476"></polygon>
+                <polygon id="Shape" fill="#3DB39E" points="37.7777778 17.8888889 52.7777778 10.3888889 67.9929861 18.0010895 52.9993184 25.4439507"></polygon>
+                <polygon id="Shape" fill="#E5766D" points="49 7 48.142795 7 34 13.6316276 34 57 49 49.5263394"></polygon>
+                <path d="M34,13.6316276 L19.8571973,7 L19,7 L19,49.5263394 L34,57 C34,57 34,13.6316276 34,13.6316276 Z" id="Shape" fill="#CC231C"></path>
+                <polygon id="Shape" fill="#F24841" points="19.0288774 6.96835592 34 0 48.9744283 6.96835592 34 15"></polygon>
+                <polygon id="Shape" fill="#EFCF7B" points="30 25.5 29.142795 25.5 15 32.1938002 15 68 30 60.4562726 30 25.5"></polygon>
+                <polygon id="Shape" fill="#F99322" points="15 32.1938002 0.857205038 25.5 0 25.5 0 60.4562726 15 68"></polygon>
+                <polygon id="Shape" fill="#F9B422" points="0 25.5 15 18 30 25.5 15 33"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
