@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Sitename</title>
+    <meta name="author"><meta name='viewport' content='width=device-width,initial-scale=1'/>
+<meta content='true' name='HandheldFriendly'/>
+<meta content='width' name='MobileOptimized'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+    <meta name="description" content="Awesome site">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+  </head>
+  <body>
+    <header class="header header-reservation">
+      <div class="header__nav">
+        <div class="container">
+          <div class="header__nav-logo"><a href=""><img src="assets/images/icons/logo.svg"><span>Туры по фиксированным ценам</span></a></div>
+          <div class="mobile-logo">
+            <div class="mobile-logo__logo"><img src="assets/images/icons/mobile-logo.svg"><span>вылет <br> из <a class="sity_click" href="javascript:void(0)">москвы</a></span></div>
+          </div>
+          <div class="header__nav-btn"><a class="btn help--btn" href="#">помощь</a><a class="btn wishes--btn" href="#">Ваши пожелания</a><a class="btn btn--blue open--login" href="#">вернуться назад</a>
+            <div class="auth__header"></div>
+            <div class="auth">
+              <div class="auth__close"><img src="assets/images/icons/close.svg"></div>
+              <div class="auth__logo"><span>Изменить фото профиля</span></div>
+              <div class="auth__text">
+                <div class="auth__text-name">Валентина Р.</div>
+                <div class="auth__text-info"><a href="">Настройки профиля</a><a href="">Мои заказы</a></div>
+                <div class="auth__text-btn">Выход</div>
+              </div>
+            </div>
+            <div class="sandwich">
+              <div class="sw-topper"></div>
+              <div class="sw-bottom"></div>
+              <div class="sw-footer"></div>
+            </div>
+            <div class="mobile__menu"><a href="#">Частые вопросы<br></a><a href="#">Как связаться<br></a><a class="wishes--btn" href="#">Ваши пожелания<br></a></div>
+            <div class="help"><a href="">Частые вопросы</a><a href="">Как связаться</a>
+              <div class="help__close"><img src="assets/images/icons/close.svg"></div>
+            </div>
+            <div class="wishes">
+              <div class="wishes__sent"><span>Спасибо! Ваше пожелание отправлено!</span><a class="btn btn--blue" href="">Пожалуйста</a></div>
+              <div class="wishes__close"><img src="assets/images/icons/close.svg"></div>
+              <div class="wishes__title">У вас есть пожелания? Напишите нам!</div>
+              <div class="wishes__textarea textarea">
+                <div class="label__visible">Ваше пожелание </div>
+                <textarea rows="4" cols="55" placeholder="Ваше пожелание"></textarea>
+              </div>
+              <div class="wishes__subtitle">Вы можете отправить пожелание анонимно, но если требуется ответ оставьте свой e-mail в конце письма</div>
+              <div class="wishes__bottom">
+                <div class="wishes__bottom-input"><span>Введите код с картинки</span>
+                  <input>
+                </div>
+                <div class="wishes__bottom-captcha"><span>Изменить картинку</span><img src="assets/images/icons/capha.png"></div><a class="btn btn--blue" href="#">Отправить</a>
+              </div>
+            </div>
+            <div class="login">
+              <div class="login__title">Войти через социальные сети:</div>
+              <div class="login__soc"><a href=""><img src="assets/images/icons/vk_icon.svg"></a><a href=""><img src="assets/images/icons/facebook_icon.svg"></a><a href=""><img src="assets/images/icons/od_icon.svg"></a><a href=""><img src="assets/images/icons/gogle_icon.svg"></a><a href=""><img src="assets/images/icons/twitter_icon.svg"></a></div>
+              <div class="login__text">Авторизуясь, вы соглашаетесь с правилами использования сервиса и обработки персональных данных</div>
+              <div class="login__line">или</div>
+              <div class="login__wrapp">
+                <div class="login__wrapp-input input">
+                  <div class="label__visible">Ваш e-mail</div>
+                  <input placeholder="Ваш e-mail">
+                </div>
+                <div class="login__wrapp-input input">
+                  <div class="label__visible">Пароль</div>
+                  <div class="input__error-text">Неверный пароль</div>
+                  <input class="password-input" placeholder="Пароль" type="password"><span class="open_password"></span><span class="white-block"></span>
+                </div>
+              </div>
+              <div class="login__btn"><a class="btn btn--blue">Войти</a></div>
+              <div class="login__close"><img src="assets/images/icons/close.svg"></div>
+              <div class="login__info">Мы отправили подтверждение регистрации <a href="">на вашу почту</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__tur">
+        <div class="container">
+          <div class="sity-block sity-block--header">
+            <div class="container">
+              <div class="sity-block__title">Из какого города полетите?</div>
+              <div class="sity-block__input input">
+                <div class="label__visible">Город вылета</div>
+                <input placeholder="Город вылета">
+                <div class="sity-block__input-btn"><img src="assets/images/icons/search_big.svg"></div>
+              </div>
+              <div class="sity-block__inner sity-wrapp">
+                <div class="sity__colum"><a class="active" href="javascript:void(0)"> <span>Москва</span></a><a href="javascript:void(0)"> <span>Санкт-Петербург</span></a><a class="letter-a" href="javascript:void(0)"> <span>Абакан</span></a><a href="javascript:void(0)"> <span>Анадырь</span></a><a href="javascript:void(0)"> <span>Архангельск</span></a><a href="javascript:void(0)"> <span>Астрахань</span></a><a class="letter-b" href="javascript:void(0)"> <span>Барнаул</span></a><a href="javascript:void(0)"> <span>Белгород</span></a><a href="javascript:void(0)"> <span>Биробиджан</span></a><a href="javascript:void(0)"> <span>Благовещенск</span></a><a href="javascript:void(0)"> <span>Брянск</span></a><a class="letter-v" href=""> <span>Великий Новгород</span></a><a href="javascript:void(0)"> <span>Владивосток</span></a><a href="javascript:void(0)"> <span>Владикавказ</span></a></div>
+                <div class="sity__colum"><a href="javascript:void(0)"> <span>Владимир</span></a><a href="javascript:void(0)"> <span>Волгоград</span></a><a href="javascript:void(0)"> <span>Вологда</span></a><a href="javascript:void(0)"> <span>Воронеж</span></a><a class="letter-g" href=""> <span>Горно-Алтайск</span></a><a href="javascript:void(0)"> <span>Грозный</span></a><a class="letter-e" href="javascript:void(0)"> <span>Екатеринбург</span></a><a class="letter-z" href="javascript:void(0)"> <span>Зеленоград</span></a><a class="letter-i" href="javascript:void(0)"> <span>Иваново</span></a><a href="javascript:void(0)"> <span>Ижевск</span></a><a href="javascript:void(0)"> <span>Ирбит</span></a><a href="javascript:void(0)"> <span>Иркутск</span></a><a class="letter-th" href="javascript:void(0)"> <span>Йошкар-Ола</span></a><a class="letter-k" href="javascript:void(0)"> <span>Казань</span></a><a href="javascript:void(0)"> <span>Калининград</span></a></div>
+                <div class="sity__colum"><a href="javascript:void(0)"> <span>Калуга</span></a><a href="javascript:void(0)"> <span>Кемерово</span></a><a href="javascript:void(0)"> <span>Киров</span></a><a href="javascript:void(0)"> <span>Комсомольск-на-Амуре</span></a><a href="javascript:void(0)"> <span>Кострома</span></a><a href="javascript:void(0)"> <span>Красногорск</span></a><a href="javascript:void(0)"> <span>Краснодар</span></a><a href="javascript:void(0)"> <span>Красноярск</span></a><a href="javascript:void(0)"> <span>Курган</span></a><a href="javascript:void(0)"> <span>Курск</span></a><a href="javascript:void(0)"> <span>Кызыл</span></a><a class="letter-l" href="javascript:void(0)"> <span>Липецк</span></a><a class="letter-m" href="javascript:void(0)"> <span>Магадан</span></a><a href="javascript:void(0)"> <span>Магас</span></a></div>
+                <div class="sity__colum"><a href="javascript:void(0)"> <span>Магнитогорск</span></a><a href="javascript:void(0)"> <span>Майкоп</span></a><a href="javascript:void(0)"> <span>Махачкала</span></a><a href="javascript:void(0)"> <span>Минеральные Воды</span></a><a href="javascript:void(0)"> <span>Мурманск</span></a><a class="letter-n" href="javascript:void(0)"> <span>Набережные Челны</span></a><a href="javascript:void(0)"> <span>Нальчик</span></a><a href="javascript:void(0)"> <span>Нарьян-Мар</span></a><a href="javascript:void(0)"> <span>Нижневартовск</span></a><a href="javascript:void(0)"> <span>Нижний Новгород</span></a><a href="javascript:void(0)"> <span>Нижний Тагил</span></a><a href="javascript:void(0)"> <span>Новокузнецк</span></a><a href="javascript:void(0)"> <span>Новороссийск</span></a><a href="javascript:void(0)"> <span>Новосибирск</span></a><a href="javascript:void(0)"> <span>Новоуральск</span></a></div>
+                <div class="sity__colum"><a class="letter-o" href="javascript:void(0)"> <span>Омск</span></a><a href="javascript:void(0)"> <span>Оренбург</span></a><a href="javascript:void(0)"> <span>Орёл</span></a><a class="letter-p" href="javascript:void(0)"> <span>Пенза</span></a><a href="javascript:void(0)"> <span>Пермь</span></a><a href="javascript:void(0)"> <span>Петрозаводск</span></a><a href="javascript:void(0)"> <span>Петропавловск-Камчатский</span></a><a href="javascript:void(0)"> <span>Псков</span></a><a class="letter-r" href="javascript:void(0)"> <span>Ростов-на-Дону</span></a><a href="javascript:void(0)"> <span>Рязань</span></a><a class="letter-c" href="javascript:void(0)"> <span>Салехард</span></a><a href="javascript:void(0)"> <span>Самара</span></a><a href="javascript:void(0)"> <span>Саранск</span></a><a href="javascript:void(0)"> <span>Саратов</span></a></div>
+                <div class="sity__colum"><a href="javascript:void(0)"> <span>Севастополь</span></a><a href="javascript:void(0)"> <span>Симферополь</span></a><a href="javascript:void(0)"> <span>Смоленск</span></a><a href="javascript:void(0)"> <span>Сочи</span></a><a href="javascript:void(0)"> <span>Ставрополь</span></a><a href="javascript:void(0)"> <span>Стерлитамак</span></a><a href="javascript:void(0)"> <span>Сургут</span></a><a href="javascript:void(0)"> <span>Сыктывкар</span></a><a class="letter-t" href="javascript:void(0)"> <span>Таганрог</span></a><a href="javascript:void(0)"> <span>Тамбов</span></a><a href="javascript:void(0)"> <span>Тверь</span></a><a href="javascript:void(0)"> <span>Тольятти</span></a><a href="javascript:void(0)"> <span>Томск</span></a><a href="javascript:void(0)"> <span>Тула</span></a><a href="javascript:void(0)"> <span>Тюмень</span></a></div>
+                <div class="sity__colum"><a class="letter-y" href="javascript:void(0)"> <span>Улан-Удэ</span></a><a href="javascript:void(0)"> <span>Ульяновск</span></a><a href="javascript:void(0)"> <span>Уфа</span></a><a class="letter-x" href="javascript:void(0)"> <span>Хабаровск</span></a><a href="javascript:void(0)"> <span>Ханты-Мансийск</span></a><a class="letter-h" href="javascript:void(0)"> <span>Чебоксары</span></a><a href="javascript:void(0)"> <span>Челябинск</span></a><a href="javascript:void(0)"> <span>Череповец</span></a><a href="javascript:void(0)"> <span>Черкесск</span></a><a href="javascript:void(0)"> <span>Чита</span></a><a class="letter-e" href="javascript:void(0)"> <span>Элиста</span></a><a class="letter-yu" href="javascript:void(0)"> <span>Южно-Сахалинск</span></a><a class="letter-ia" href="javascript:void(0)"> <span>Якутск</span></a><a href="javascript:void(0)"> <span>Ярославль</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="header__tur-nomber"><span class="heading-page">Частые вопросы</span><span>вылет из <a class='sity_click' href='javascript:void(0)'> москвы</a></span><span class="phone-header">+7 (495) 123-45-67</span></div>
+        </div>
+      </div>
+    </header>
+    <div class="main_why-we">
+      <div class="container">
+        <div class="why-we__header">
+          <div class="why-we__header-title">Почему мы?</div>
+          <div class="why-we__header-subtitle">Мы работаем только с проверенными операторами, поэтому вы можете быть<br> уверенными в том, что ваш отдых пройдёт без происшествий</div>
+          <div class="why-we__header-inner why-we-tiket">
+            <div class="why-we-tiket__item">
+              <div class="why-we-tiket__item-img"><img src="assets/images/icons/robot.png"></div>
+              <div class="why-we-tiket__item-title">Специальные алгоритмы</div>
+              <div class="why-we-tiket__item-text">Мы создали специальные алгоритмы, с помощью которых мы оптимизируем туры и получаем фиксированные цены,  за частую ниже чем у конкурентов.</div>
+            </div>
+            <div class="why-we-tiket__item">
+              <div class="why-we-tiket__item-img"><img src="assets/images/icons/card2.png"></div>
+              <div class="why-we-tiket__item-title">Проверенные туроператоры</div>
+              <div class="why-we-tiket__item-text">Мы работаем только с проверенными операторами, поэтому вы можете быть уверенными в том, что ваш отдых пройдёт без происшествий</div>
+            </div>
+            <div class="why-we-tiket__item">
+              <div class="why-we-tiket__item-img"><img src="assets/images/icons/card.png"></div>
+              <div class="why-we-tiket__item-title">Цены ниже чем у всех</div>
+              <div class="why-we-tiket__item-text">Если вы найдёте стоимость на тур ниже чем у нас, то мы снизим стоимость ещё</div>
+            </div>
+            <div class="why-we-tiket__item">
+              <div class="why-we-tiket__item-img"><img src="assets/images/icons/clock_rocket.png"></div>
+              <div class="why-we-tiket__item-title">Экономия времени</div>
+              <div class="why-we-tiket__item-text">Мы работаем только с проверенными операторами, поэтому вы можете быть уверенными в том, что ваш отдых пройдёт без происшествий</div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="reviews__title">Отзывы наших клиентов</div>
+          <div class="reviews__subtitle">Цены предоставленные на сайте за последние 24 часа не являются публичной афертой</div>
+          <div class="reviews__inner">
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/content/girls.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+                <div class="reviews-item__info-fulltext">Представляете, проснулась утром а вас уже 250.000 Так приятно осознавать, что ты разделяешь свою жизнь с единомышленниками Которые подсказывают , поддерживают , иногда помогают 👌 Вообще спасибо Инстаграму за это😇✨ Волшебство какое -то, что люди, живущие в самых далеких уголках планеты , связаны одной соцсетью.<br> Интересно узнать откуда вы , и почему на меня подписаны!<br> .<br> А пока хотела поговорить о весьма волнующей всех теме : «Макияж и уход за кожей лица»👄💄 . Начну с ухода : его нет</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">13.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+            <div class="reviews__inner-item reviews-item">
+              <div class="reviews-item__img"><img src="assets/images/icons/offer.jpg"></div>
+              <div class="reviews-item__info">
+                <div class="reviews-item__info-title">Марьяна </div>
+                <div class="reviews-item__info-text">Для тех кому хочется чего-то нового и необыкновенного</div>
+                <div class="reviews-item__info-data">12.03.2018</div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__allItem"><img src="assets/images/icons/str-black.svg"><span>Смотреть ещё отзывы</span></div>
+          <div class="reviews__title reviews__title--video">Видео с отзывами наших клиентов</div>
+          <div class="reviews__subtitle">Посмотрите небольшой ролик с видеоотзывами наших клиентов</div>
+          <div class="reviews__video"></div>
+        </div>
+        <div class="why-we__baner">
+          <div class="why-we__baner-img"><img src="assets/images/icons/why-we__baner-img.svg"></div>
+          <div class="why-we__baner-btn"><a class="btn btn--orange" href="">Найти свой тур</a><span>Ну что мы вам рассказываем? Скрее попробуйте наш совершенный поисковик и подберите себе тур мечты!</span></div>
+          <div class="why-we__baner-bg"><img src="assets/images/icons/why-we__baner-bg.jpg"></div>
+        </div>
+        <div class="why-we__header">
+          <div class="why-we__header-title">Какой-то сео текст</div>
+          <div class="why-we__header-text">
+            <p>Традиционный сезон пляжных туров в Турцию – с апреля по октябрь. Но это касается только южного и юго-западного побережья. Пляжи есть, разумеется, и вокруг Стамбула, а также на южном берегу Черного моря – в Трабзоне, Самсуне или Гиресуне. Но здесь с начала осени по май почти так же холодно, как в Крыму.</p>
+            <p>В прибрежных районах климат – типично средиземноморский, субтропический: мягкая зима (в самом холодном месяце, в январе, даже в Стамбуле не всегда температура опускается ниже +5 градусов) и жаркое сухое лето (до +40 и выше). Чем дальше от побережья, тем континентальней становится погода, резче перепады температуры, холоднее зимой и летом. В том, что касается климата, Турция тоже очень разная. Для сравнения: в январе средняя температура в Стамбуле +7 градусов днем, тогда как в главных курортах Турецкой Ривьеры, в Аланье, Кемере и Белеке - +14. В июне в Стамбуле +25, а на Ривьере – от 30 и выше.</p>
+            <p>Таким образом, пляжный отдых в Турции, на юго-западном и южном побережьях можно организовать с середины апреля по сентябрь. В Стамбул и Бурсу можно ехать в любое время года – погода не испортит экскурсионный маршрут, а если есть время, то с ноября по начало марта для можно подобрать тур в Турцию на горнолыжный курорт: все они расположены в европейской части страны, ближе к границам с Болгарией и Грецией.</p>
+            <p>Лучшее время для пляжного отдыха, когда курорты Турции могут похвастать температурой воды +23-27 градусов – с июня по середину октября. Экскурсионные поездки в этом смысле организовать куда доступней: в Анкере и Стамбуле довольно тепло с марта по ноябрь.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-menu menu">
+            <div class="menu__item"> <a href="">Частые вопросы</a></div>
+            <div class="menu__item"> <a href="">Как связаться</a></div>
+            <div class="menu__item"> <a href="">Пожелания</a></div>
+          </div>
+          <div class="footer__bottom-soc soc">
+            <div class="soc__item"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>A7AB69C7-F15D-4417-AAA9-5F2D528A0F8C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-435.000000, -3578.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-7" transform="translate(0.000000, 3524.000000)">
+                <g id="Group-6" transform="translate(435.000000, 50.000000)">
+                    <g id="vk" transform="translate(0.000000, 4.000000)">
+                        <path d="M8.98385742,10.3529475 L9.97452962,10.3529475 C9.97452962,10.3529475 10.2737788,10.3200976 10.4265534,10.155398 C10.567178,10.0041985 10.562678,9.72024927 10.562678,9.72024927 C10.562678,9.72024927 10.543328,8.39095302 11.1602763,8.19520357 C11.7684496,8.00237911 12.5494224,9.47994995 13.377195,10.0480733 C14.0031433,10.4780471 14.4787919,10.3837724 14.4787919,10.3837724 L16.6921107,10.3529475 C16.6921107,10.3529475 17.8499574,10.2816227 17.300959,9.37127525 C17.2559591,9.29680046 16.9812349,8.69785215 15.6553136,7.46710562 C14.2675175,6.17898425 14.453367,6.38733366 16.1251123,4.15916494 C17.1432344,2.80219376 17.5502583,1.9737461 17.4231336,1.6189221 C17.301859,1.28097305 16.5530611,1.3702978 16.5530611,1.3702978 L14.0609681,1.38582275 C14.0609681,1.38582275 13.8762436,1.36062283 13.739219,1.4425226 C13.6053444,1.52284737 13.5191696,1.71004684 13.5191696,1.71004684 C13.5191696,1.71004684 13.1247457,2.76011888 12.5986972,3.65314137 C11.4890004,5.53751106 11.0453016,5.63696078 10.8639521,5.51996111 C10.4420783,5.24726187 10.547378,4.42443919 10.547378,3.83989084 C10.547378,2.01379599 10.8243522,1.25239813 10.0080545,1.05529869 C9.73715529,0.989823871 9.53780585,0.946623992 8.84503281,0.939649012 C7.95583531,0.930424038 7.20321243,0.942349004 6.77706363,1.15114842 C6.49356443,1.28997302 6.27486505,1.59934715 6.40806467,1.6171221 C6.57276421,1.63917204 6.94581316,1.71769682 7.1435876,1.98702106 C7.39896188,2.33442008 7.38996191,3.11471788 7.38996191,3.11471788 C7.38996191,3.11471788 7.53666149,5.26436183 7.04728787,5.53143607 C6.71136382,5.71458556 6.25056512,5.34063661 5.2612429,3.63109143 C4.75431933,2.7553939 4.37159541,1.78744662 4.37159541,1.78744662 C4.37159541,1.78744662 4.29779562,1.60654713 4.16617099,1.50979741 C4.00642144,1.39257274 3.78322207,1.35522284 3.78322207,1.35522284 L1.41510374,1.3707478 C1.41510374,1.3707478 1.05960474,1.38064777 0.929105111,1.53522233 C0.813005438,1.67269695 0.919880137,1.95709615 0.919880137,1.95709615 C0.919880137,1.95709615 2.77387491,6.29463392 4.873119,8.48050276 C6.79798857,10.4845721 8.98385742,10.3529475 8.98385742,10.3529475 L8.98385742,10.3529475 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><a href="">Вконтакте</a>
+            </div>
+            <div class="soc__item"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="18px" viewBox="0 0 9 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>5D7AA2B2-9707-4746-B6AA-A42C665B4C04</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-549.000000, -3574.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-7" transform="translate(0.000000, 3524.000000)">
+                <g id="Group-6" transform="translate(435.000000, 50.000000)">
+                    <g id="facebook" transform="translate(114.000000, 0.000000)">
+                        <path d="M7.88983386,9.19471197 L5.62409353,9.19471197 L5.62409353,17.4953343 L2.19130453,17.4953343 L2.19130453,9.19471197 L0.55865868,9.19471197 L0.55865868,6.277543 L2.19130453,6.277543 L2.19130453,4.38980331 C2.19130453,3.03986571 2.83254753,0.926004677 5.65465047,0.926004677 L8.19744037,0.936643018 L8.19744037,3.76825256 L6.35248038,3.76825256 C6.04985353,3.76825256 5.62431988,3.91945282 5.62431988,4.56341198 L5.62431988,6.28025917 L8.18974454,6.28025917 L7.88983386,9.19471197 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><a href="">Фейсбук</a>
+            </div>
+            <div class="soc__item"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>94F6B82A-7BF4-4A05-BA81-D1399608770E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-copy" transform="translate(-646.000000, -3577.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-7" transform="translate(0.000000, 3524.000000)">
+                <g id="Group-6" transform="translate(435.000000, 50.000000)">
+                    <g id="big-instagram-logo" transform="translate(211.000000, 3.000000)">
+                        <path d="M11.7940684,0 L1.62395362,0 C0.747826983,0 0,0.822976834 0,1.69642267 L0,11.8731229 C0,12.7462773 0.747826983,13.3694471 1.62395362,13.3694471 L11.7940684,13.3694471 C12.6701659,13.3694471 13.3709914,12.7462773 13.3709914,11.8731229 L13.3709914,1.69642267 C13.3709914,0.822976834 12.6701659,0 11.7940684,0 Z M11.4795113,1.90986689 C11.7329928,1.90986689 11.9385111,2.11538527 11.9385111,2.36886668 L11.9385111,3.83852853 C11.9385111,4.09200994 11.7329928,4.29752832 11.4795113,4.29752832 L10.0096455,4.29752832 C9.75616411,4.29752832 9.55064573,4.09200994 9.55064573,3.83852853 L9.55064573,2.36886668 C9.55064573,2.11538527 9.75616411,1.90986689 10.0096455,1.90986689 L11.4795113,1.90986689 Z M6.72446932,4.24096925 C8.14153502,4.24096925 9.29017092,5.38712832 9.29017092,6.80031851 C9.29017092,8.21374182 8.14153502,9.35987175 6.72446932,9.35987175 C5.30766588,9.35987175 4.15876772,8.21374182 4.15876772,6.80031851 C4.15876772,5.38712832 5.30763674,4.24096925 6.72446932,4.24096925 Z M11.9385111,11.531787 C11.9385111,11.7371014 11.7202881,11.9371707 11.5142743,11.9371707 L1.93504311,11.9371707 C1.72911678,11.9371707 1.43250944,11.7371014 1.43250944,11.531787 L1.43250944,5.72980465 L2.81026643,5.72980465 C2.71646753,6.20742436 2.66585284,6.43016397 2.66585284,6.80031851 C2.66585284,9.03287228 4.48643739,10.8487363 6.72444018,10.8487363 C8.96264695,10.8487363 10.7832898,9.0324352 10.7832898,6.79988143 C10.7832898,6.43016397 10.732646,6.20742436 10.6393133,5.72980465 L11.9385111,5.72980465 L11.9385111,11.531787 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><a href="">Инстаграм</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-left">
+            <div class="footer__bottom-text">© 2017, FixTravel –  туры по фиксированным ценам</div><span>+7 (495) 123-45-67</span>
+          </div>
+          <div class="footer__bottom-right"><span>Наши партнеры:</span>
+            <div class="footer__bottom-partners"><img src="assets/images/icons/partners.png"></div>
+            <div class="footer__bottom-text">© 2017, FixTravel –  туры по фиксированным ценам</div>
+          </div>
+          <div class="footer__bottom-addres"><span>Адрес: г.Москва, метро Парк Культуры, Зубовский бульвар д.13, офис 41<br>Услуги предоставляет: ООО "ТУР СЕРВИС", ИНН 7728335679, КПП 770401001<br>Для корреспондеции: г.Москва, метро Парк Культуры, Зубовский бульвар д.13, офис 41, Индекс 119021</span></div>
+        </div>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div id="results-outdated">
+        <div class="results-outdated">
+          <div class="results-outdated__title">Результаты поиска могли устареть</div>
+          <div class="results-outdated__btn"><a class="btn btn--transparent" href="">Продолжить</a><a class="btn btn--folow" href="">Обновить результаты</a></div>
+          <div class="results-outdated__close"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>B76E9FCC-F998-4E02-93A4-43C4F041272E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo_hotel" transform="translate(-1268.000000, -320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-5-Copy-33" transform="translate(1268.901944, 321.000000)">
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3"></path>
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3-Copy" transform="translate(6.963457, 6.698690) scale(-1, 1) translate(-6.963457, -6.698690) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
+          </div>
+        </div>
+      </div>
+      <div id="results-empty">
+        <div class="results-outdated results-outdated--empty">
+          <div class="results-outdated__title">К сожалению, таких туров пока нет</div>
+          <div class="results-outdated__btn"><a class="btn btn--folow" href="">Ничего страшного, я изменю параметры поика</a></div>
+          <div class="results-outdated__close"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>B76E9FCC-F998-4E02-93A4-43C4F041272E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo_hotel" transform="translate(-1268.000000, -320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-5-Copy-33" transform="translate(1268.901944, 321.000000)">
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3"></path>
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3-Copy" transform="translate(6.963457, 6.698690) scale(-1, 1) translate(-6.963457, -6.698690) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
+          </div>
+        </div>
+      </div>
+      <div id="results-formed">
+        <div class="results-outdated results-outdated--formed">
+          <div class="results-outdated__img"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="99px" viewBox="0 0 181 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>BFEAFB74-0194-411E-8D73-DF61E505C303</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="заявка_сформирована" transform="translate(-883.000000, -383.000000)">
+            <g id="Group-9" transform="translate(883.000000, 383.000000)">
+                <g id="like" transform="translate(0.500091, 0.000000)" fill-rule="nonzero" fill="#F39200">
+                    <path d="M143.690749,5.03535571 C144.941222,2.07152278 147.797854,0.000619659822 151.12047,0.000619659822 C155.596273,0.000619659822 158.819744,3.8294977 159.225001,8.39267263 C159.225001,8.39267263 159.443741,9.52541078 158.962265,11.5647113 C158.306665,14.3420266 156.765571,16.809512 154.687852,18.6926582 L143.690749,28.5043518 L132.878924,18.6920385 C130.801205,16.809512 129.260111,14.3414069 128.604511,11.5640916 C128.123035,9.52479112 128.341775,8.39205297 128.341775,8.39205297 C128.747033,3.82887804 131.970503,0 136.446306,0 C139.769542,0 142.440275,2.07152278 143.690749,5.03535571 Z" id="Shape"></path>
+                    <path d="M169.24305,31.54686 C170.068174,29.591177 171.95312,28.2246931 174.145546,28.2246931 C177.098901,28.2246931 179.225906,30.7511755 179.493315,33.7621831 C179.493315,33.7621831 179.63765,34.5096195 179.319949,35.8552504 C178.887351,37.6878599 177.870462,39.3160283 176.49948,40.5586209 L169.24305,47.0328597 L162.108875,40.558212 C160.737894,39.3160283 159.721004,37.687451 159.288407,35.8548415 C158.970705,34.5092106 159.115041,33.7617742 159.115041,33.7617742 C159.38245,30.7507666 161.509454,28.2242842 164.462809,28.2242842 C166.655644,28.2242842 168.417926,29.591177 169.24305,31.54686 Z" id="Shape-Copy"></path>
+                    <path d="M10.1607205,50.7906901 C10.9858445,48.8350072 12.8707909,47.4685233 15.0632165,47.4685233 C18.0165718,47.4685233 20.1435763,49.9950056 20.4109852,53.0060132 C20.4109852,53.0060132 20.5553206,53.7534497 20.2376192,55.0990806 C19.805022,56.93169 18.7881322,58.5598584 17.4171507,59.8024511 L10.1607205,66.2766899 L3.02654601,59.8020422 C1.65556441,58.5598584 0.638674692,56.9312811 0.206077456,55.0986717 C-0.111623916,53.7530408 0.0327114562,53.0056043 0.0327114562,53.0056043 C0.300120333,49.9945967 2.42712489,47.4681144 5.38048012,47.4681144 C7.57331469,47.4681144 9.33559643,48.8350072 10.1607205,50.7906901 Z" id="Shape-Copy-2"></path>
+                </g>
+                <g id="email" transform="translate(40.367105, 10.263376)">
+                    <polygon id="XMLID_1257_" fill="#F24841" fill-rule="nonzero" points="68.4889368 44.4669789 68.4889368 44.4671929 48.1547788 63.6713187 77.0476461 87.7487081 77.0476461 36.3836107"></polygon>
+                    <polygon id="XMLID_1258_" fill="#F24841" fill-rule="nonzero" points="0 36.3836107 0 87.7487081 28.8928673 63.6713187"></polygon>
+                    <polygon id="XMLID_1259_" fill="#D41D15" fill-rule="nonzero" points="28.8928673 63.6713187 0 87.7487081 38.5238231 87.7487081 38.5238231 72.7672213"></polygon>
+                    <polygon id="XMLID_1260_" fill="#AA251F" fill-rule="nonzero" points="38.5238231 72.7672213 38.5238231 87.7487081 77.0476461 87.7487081 48.1547788 63.6713187"></polygon>
+                    <polygon id="XMLID_1261_" fill="#F24841" fill-rule="nonzero" points="8.55935142 28.2998144 0 36.3836107 8.55870936 36.3836107"></polygon>
+                    <polygon id="XMLID_1262_" fill="#F24841" fill-rule="nonzero" points="77.0476461 36.3836107 68.4878667 28.2993864 68.4885087 36.3836107"></polygon>
+                    <polygon id="XMLID_1263_" fill="#F24841" fill-rule="nonzero" points="38.5238231 0 16.4825896 18.7469127 60.8597539 18.7469127"></polygon>
+                    <polygon id="XMLID_1264_" fill="#AA251F" fill-rule="nonzero" points="68.4889368 44.4669789 77.0476461 36.3836107 68.4885087 36.3836107"></polygon>
+                    <polygon id="XMLID_1265_" fill="#AA251F" fill-rule="nonzero" points="38.5238231 72.7672213 8.55785327 44.4661228 8.55870936 36.3836107 0 36.3836107 28.8928673 63.6713187"></polygon>
+                    <path d="M8.55785327,44.4661228 L38.5238231,72.7672213 L48.1547788,63.6713187 L68.4889368,44.4671929 L68.4885087,36.3836107 L68.4878667,28.2993864 L68.4872432,22.7094587 L68.4872432,22.7094587 C68.4869968,20.5003197 66.6959361,18.7096584 64.4867971,18.7099048 C64.4853397,18.709905 64.4838822,18.709906 64.4824248,18.7099077 L52.1411384,18.724774 L24.8720503,18.7570912 L12.555445,18.7717975 L12.555445,18.7717975 C10.3484182,18.7744328 8.56056836,20.5641371 8.56022116,22.7711654 L8.55935142,28.2998144 L8.55870936,36.3836107 L8.55785327,44.4661228 Z" id="XMLID_1266_" fill="#DEDDE0" fill-rule="nonzero"></path>
+                    <polygon id="XMLID_1266_-path" fill="#1083C5" points="19.2619115 38.5238231 57.7857346 38.5238231 57.7857346 41.7341417 19.2619115 41.7341417"></polygon>
+                    <polygon id="XMLID_1266_-path" fill="#1083C5" points="19.2619115 32.1031859 19.2619115 28.8928673 57.7857346 28.8928673 57.7857346 32.1031859"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+          </div>
+          <div class="results-outdated__title">К сожалению, таких туров пока нет</div>
+          <div class="results-outdated__subtitle">Наш менеджер свяжется с вами в ближайшее время для уточнения информации</div>
+          <div class="results-outdated__btn"><a class="btn btn--folow" href="">Хорошо!</a></div>
+          <div class="results-outdated__close"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>B76E9FCC-F998-4E02-93A4-43C4F041272E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo_hotel" transform="translate(-1268.000000, -320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-5-Copy-33" transform="translate(1268.901944, 321.000000)">
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3"></path>
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3-Copy" transform="translate(6.963457, 6.698690) scale(-1, 1) translate(-6.963457, -6.698690) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
+          </div>
+        </div>
+      </div>
+      <div id="results-select">
+        <div class="results-select" id="results-select">
+          <div class="results-select__close"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>B76E9FCC-F998-4E02-93A4-43C4F041272E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo_hotel" transform="translate(-1268.000000, -320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-5-Copy-33" transform="translate(1268.901944, 321.000000)">
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3"></path>
+                <path d="M0,-1.77635684e-15 L13.9269145,13.3973794" id="Path-3-Copy" transform="translate(6.963457, 6.698690) scale(-1, 1) translate(-6.963457, -6.698690) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
+          </div>
+          <div class="results-select__left">
+            <div class="results-select__send">
+              <div class="results-select__send-title">Спасибо!<br> Наш специалист в ближайшее<br> время с вами свяжется</div>
+              <div class="results-select__send-img"><img src="assets/images/icons/select_send.svg"></div>
+            </div>
+            <div class="results-select__right-title">Подбор тура<br> со специалистом</div>
+            <div class="results-select__right-subtitle">Максимально выгодное предложение по лучшей цене</div>
+            <div class="results-select__right-input input">
+              <input placeholder="Ваше имя">
+              <div class="label__visible">Ваше имя</div>
+            </div>
+            <div class="results-select__right-input input">
+              <input placeholder="Ваш телефон">
+              <div class="label__visible">Ваш телефон</div>
+            </div>
+            <div class="results-select__right-input input">
+              <input placeholder="Ваш e-mail">
+              <div class="label__visible">Ваш e-mail</div>
+            </div>
+            <div class="results-select__right-btn"><a class="btn btn--orange" href="">Позвоните мне!</a></div>
+          </div>
+          <div class="results-select__right">
+            <div class="results-select__left-title">Или задайте<br> вопрос в социальных сетях</div>
+            <div class="results-select__left-soc soc-icons">
+              <div class="soc-icons__item telegram"><img src="assets/images/icons/telegram.svg"></div>
+              <div class="soc-icons__item vk"><img src="assets/images/icons/vk.svg"></div>
+              <div class="soc-icons__item whatsapp"><img src="assets/images/icons/whatsapp.svg">
+                <div class="soc-icons__item-popup">+7 (495) 545–55–05</div>
+              </div>
+              <div class="soc-icons__item viber"><img src="assets/images/icons/viber.svg">
+                <div class="soc-icons__item-popup">+7 (495) 545–55–05</div>
+              </div>
+            </div>
+            <div class="results-select__left-img"><img src="assets/images/icons/select-img.svg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+  </body>
+</html>
