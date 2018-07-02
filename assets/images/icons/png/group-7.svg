@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1148px" height="550px" viewBox="0 0 1148 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>C9081601-03F0-4156-9EC3-6FA735C750B1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="7.28818218%" y1="53.1251894%" x2="38.3344274%" y2="53.1251907%" id="linearGradient-1">
+            <stop stop-color="#0192D0" offset="0%"></stop>
+            <stop stop-color="#038ECF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.2586727%" y1="97.6818746%" x2="23.2586727%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#0192D0" offset="0%"></stop>
+            <stop stop-color="#038ECF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.2586727%" y1="0%" x2="23.2586727%" y2="28.5875647%" id="linearGradient-3">
+            <stop stop-color="#0192D0" offset="0%"></stop>
+            <stop stop-color="#038ECF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="фикс_лендинг" transform="translate(-772.000000, -63.000000)">
+            <g id="Group-7" transform="translate(772.000000, 63.000000)">
+                <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="14" y="0" width="1134" height="550"></rect>
+                <rect id="Rectangle-2-Copy" fill="url(#linearGradient-2)" x="2" y="0" width="1148" height="550"></rect>
+                <rect id="Rectangle-2-Copy-2" fill="url(#linearGradient-3)" x="0" y="1" width="1148" height="550"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
