@@ -111,7 +111,7 @@
         <div class="manager__bilet">
           <div class="manager__bilet-title">Ваша подборка туров</div>
           <div class="manager__bilet-item">
-            <div class="countries__item">
+            <div class="countries__item tour--open">
               <div class="countries__inner">
                 <div class="countries__item-bomb"><span>Рекомендую! Бомба-тур!</span></div>
                 <div class="countries__item-img">
@@ -125,11 +125,6 @@
                   <div class="countries-info__stock"><span class="star-stock"></span><span class="star-stock"></span><span class="star-stock"></span></div>
                   <div class="countries-info__geo"><i class="icon-geo"> </i><span>Амстердам | Нидерланды</span></div>
                   <div class="countries-info__period">От 3 до 14 ночей</div>
-                  <div class="countries-info__tabs">
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_info.png"><span>Об отеле</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_map.png"><span>На карте</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_chat.png"><span>Отзывы</span></div>
-                  </div>
                 </div>
                 <div class="countries__item-rating">Рейтинг:<span>3.4</span></div>
                 <div class="countries__item-price">
@@ -332,11 +327,6 @@
                   <div class="countries-info__stock"><span class="star-stock"></span><span class="star-stock"></span><span class="star-stock"></span></div>
                   <div class="countries-info__geo"><i class="icon-geo"> </i><span>Амстердам | Нидерланды</span></div>
                   <div class="countries-info__period">От 3 до 14 ночей</div>
-                  <div class="countries-info__tabs">
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_info.png"><span>Об отеле</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_map.png"><span>На карте</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_chat.png"><span>Отзывы</span></div>
-                  </div>
                 </div>
                 <div class="countries__item-rating">Рейтинг:<span>3.4</span></div>
                 <div class="countries__item-price">
@@ -538,11 +528,6 @@
                   <div class="countries-info__stock"><span class="star-stock"></span><span class="star-stock"></span><span class="star-stock"></span></div>
                   <div class="countries-info__geo"><i class="icon-geo"> </i><span>Амстердам | Нидерланды</span></div>
                   <div class="countries-info__period">От 3 до 14 ночей</div>
-                  <div class="countries-info__tabs">
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_info.png"><span>Об отеле</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_map.png"><span>На карте</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_chat.png"><span>Отзывы</span></div>
-                  </div>
                 </div>
                 <div class="countries__item-rating">Рейтинг:<span>3.4</span></div>
                 <div class="countries__item-price"><span class="old-price">45 000</span><span class="amount-people">87 000</span>
@@ -687,11 +672,6 @@
                   <div class="countries-info__stock"><span class="star-stock"></span><span class="star-stock"></span><span class="star-stock"></span></div>
                   <div class="countries-info__geo"><i class="icon-geo"> </i><span>Амстердам | Нидерланды</span></div>
                   <div class="countries-info__period">От 3 до 14 ночей</div>
-                  <div class="countries-info__tabs">
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_info.png"><span>Об отеле</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_map.png"><span>На карте</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_chat.png"><span>Отзывы</span></div>
-                  </div>
                 </div>
                 <div class="countries__item-rating">Рейтинг:<span>3.4</span></div>
                 <div class="countries__item-price">
@@ -893,11 +873,6 @@
                   <div class="countries-info__stock"><span class="star-stock"></span><span class="star-stock"></span><span class="star-stock"></span></div>
                   <div class="countries-info__geo"><i class="icon-geo"> </i><span>Амстердам | Нидерланды</span></div>
                   <div class="countries-info__period">От 3 до 14 ночей</div>
-                  <div class="countries-info__tabs">
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_info.png"><span>Об отеле</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_map.png"><span>На карте</span></div>
-                    <div class="countries-info__tabs-item"><img src="assets/images/icons/png/icon_chat.png"><span>Отзывы</span></div>
-                  </div>
                 </div>
                 <div class="countries__item-rating">Рейтинг:<span>3.4</span></div>
                 <div class="countries__item-price">
@@ -1105,7 +1080,7 @@
             <div class="manager-block__edit"> <span>Редактировать</span><img src="assets/images/icons/png/edit.png"></div>
           </div>
           <div class="manager__info-btn">
-            <div class="btn btn--folow">Отправить по e-mail</div>
+            <div class="btn btn--folow popup" href="#send-manager">Отправить по e-mail</div>
             <div class="btn btn--folow">Отправить по SMS</div>
           </div>
         </div>
@@ -1236,6 +1211,11 @@
     </g>
 </svg>
           </div>
+        </div>
+      </div>
+      <div id="send-manager">
+        <div class="send-manager">
+          <textarea></textarea>
         </div>
       </div>
       <div id="popup-mail">
