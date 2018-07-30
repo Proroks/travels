@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
   </head>
   <body>
     <header class="header header-reservation">
@@ -107,6 +106,13 @@
       </div>
     </header>
     <main class="main-reservation">
+      <div class="ask-question">
+        <div class="ask-question__img"><img src="assets/images/icons/png/icon_manager-ask.png"></div>
+        <div class="ask-question__info">
+          <div class="ask-question__info-title">ЗАДАЙТЕ ВОПРОС</div>
+          <div class="ask-question__info-text">Если у вас есть вопросы, наши менеджеры с радостью на них ответят</div>
+        </div>
+      </div>
       <div class="container">
         <div class="gallery__for">
           <div class="gallery__for-item" data-src="assets/images/icons/bassein_large_1.jpg">
@@ -582,6 +588,37 @@
                 </div>
               </div>
             </div>
+            <div class="other-dates">
+              <div class="other-dates__title">На другие даты<img src="assets/images/icons/png/colendar.png"></div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">1 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">2 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">3 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item other-dates__item--active">
+                <div class="other-dates__item-data">4 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">5 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">6 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+              <div class="other-dates__item">
+                <div class="other-dates__item-data">7 сентября</div>
+                <div class="other-dates__item-price">15 000 ₽</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -716,7 +753,18 @@
       </div>
       <div id="send-manager">
         <div class="send-manager">
-          <textarea></textarea>
+          <div class="send-manager__input">
+            <label>Кому</label>
+            <input>
+          </div>
+          <div class="send-manager__input">
+            <label>Тема</label>
+            <input>
+          </div>
+          <div class="send-manager__textarea">
+            <textarea class="content"></textarea>
+          </div>
+          <div class="send-manager__btn"></div>
         </div>
       </div>
       <div id="popup-mail">
