@@ -381,6 +381,14 @@
             <div class="filter__item">Рейтинг отеля<img src="assets/images/icons/str_bottom-black.svg"></div>
             <div class="filter__item">Другие<img src="assets/images/icons/str_bottom-black.svg"></div>
           </div>
+          <div class="filter-mobile">
+            <select>
+              <option>Бюджет</option>
+              <option>Питание</option>
+              <option>Рейтинг отеля</option>
+              <option>Другие</option>
+            </select>
+          </div>
           <div class="extradition__top-line">
             <div class="extradition__name">Горящие туры  в Сочи (Россия) за 15 000 рублей из Москвы</div>
             <div class="extradition__sort">
@@ -499,7 +507,31 @@
                 <div class="hotel-item__logo"><img src="assets/images/icons/hotel-item__logo.png"></div>
                 <div class="hotel-item__marker"><img src="assets/images/icons/favorite.svg"><img src="assets/images/icons/ticket.svg"></div>
                 <div class="hotel-item__price">
-                  <div class="hotel-item__price-item">от<span>130 000</span><img src="assets/images/icons/rub-red.svg"></div><a>Подробнее о туре<img src="assets/images/icons/str-blue.svg"></a>
+                  <div class="hotel-item__price-item">от<span>130 000</span><img src="assets/images/icons/rub-red.svg"></div><a>Подробнее о туре<img src="assets/images/icons/str-blue.svg"></a><span>Возможны доплаты</span>
+                </div>
+              </div>
+              <div class="hotel-item">
+                <div class="hotel__bg">
+                  <div class="hotel__bg-left"></div>
+                  <div class="hotel__vertical-line">
+                    <div class="hotel__notch hotel__notch--top"></div>
+                    <div class="hotel__notch hotel__notch--bottom"></div>
+                  </div>
+                  <div class="hotel__bg-right"></div>
+                </div>
+                <div class="hotel-item__data">
+                  <div class="hotel-item__data-nights">4 ночи</div>
+                  <div class="hotel-item__data-range">12 сен — 19 сен<span>Туда — обратно</span></div>
+                </div>
+                <div class="hotel-item__conditions">
+                  <div class="hotel-item__conditions-item">Питание:<span>Завтраки, обеды, ужины + напитки</span></div>
+                  <div class="hotel-item__conditions-item">Размещение:<span>Одноместный номер Apart standard room</span></div>
+                  <div class="hotel-item__conditions-item">Цена:<span>С учетом топливного сбора =</span><strong>345 000 ₽</strong></div>
+                </div>
+                <div class="hotel-item__logo"><img src="assets/images/icons/hotel-item__logo.png"></div>
+                <div class="hotel-item__marker"><img src="assets/images/icons/favorite_active.svg"><img src="assets/images/icons/tickets_active.svg"></div>
+                <div class="hotel-item__price">
+                  <div class="hotel-item__price-item">от<span>130 000</span><img src="assets/images/icons/rub-red.svg"></div><a>Подробнее о туре<img src="assets/images/icons/str-blue.svg"></a><span>Возможны доплаты</span>
                 </div>
               </div>
               <div class="hotel-reviews">
@@ -920,217 +952,220 @@
         <div class="extradition__right">
           <div class="hyde__info-subtitle">
             <label><span>Информация</span>
-              <input type="checkbox"><span>Отели на карте</span>
+              <input class="toggle-hotel" type="checkbox"><span>Отели на карте</span>
             </label>
           </div>
-          <div class="colendar-price">
-            <div class="colendar-price__title">Календарь низких цен в Нидерланды на ближайшие даты</div>
-            <div class="colendar-price__subtitle">Показаны цены на 1 человека на 7 ночей</div>
-            <div class="colendar-price__box">
-              <div class="colendar-price--left"><span>63 000 ₽</span><span>24 000 ₽</span></div>
-              <div class="colendar-price--right">
-                <div class="colendar-price__grah">
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+          <div class="toggle-hotel__item" data-block="info">
+            <div class="colendar-price">
+              <div class="colendar-price__title">Календарь низких цен в Нидерланды на ближайшие даты</div>
+              <div class="colendar-price__subtitle">Показаны цены на 1 человека на 7 ночей</div>
+              <div class="colendar-price__box">
+                <div class="colendar-price--left"><span>63 000 ₽</span><span>24 000 ₽</span></div>
+                <div class="colendar-price--right">
+                  <div class="colendar-price__grah">
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue" style="height: 55px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue" style="height: 100px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 100px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 100px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 100px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 100px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--active">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 55px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item" style="height: 55px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--orange" style="height: 115px">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
+                    <div class="colendar-price__grah-item colendar-price__grah-item--blue">
+                      <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
+                    </div>
                   </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue" style="height: 55px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue" style="height: 100px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 100px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 100px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 100px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 100px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--active">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 55px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item" style="height: 55px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--orange" style="height: 115px">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                  <div class="colendar-price__grah-item colendar-price__grah-item--blue">
-                    <div class="colendar-price__grah-item_open">14 сентября<span>24 000 ₽</span></div>
-                  </div>
-                </div>
-                <div class="colendar-price__month"><span>Август</span><span>Сентябрь</span><span>Октябрь</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="info-flight">
-            <div class="extradition__right-title slide-title active">Информация по перелёту<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="info-flight__box slide-inner open">
-              <div class="visa">
-                <div class="visa__title"><img src="assets/images/icons/visa.svg"><span> Виза требуется</span></div>
-                <div class="currency__title"><img src="assets/images/icons/currency.svg"><span>Валюта: EUR (€)</span></div>
-                <div class="currency__inner">
-                  <div class="currency__inner-item">Евро<span>1€</span></div>
-                  <div class="currency__inner-item">Рубли<span>63,4₽</span></div>
-                </div>
-              </div>
-              <div class="time">
-                <div class="time__title"><img src="assets/images/icons/time.svg"><span>Местное время</span></div>
-                <div class="time__inner">
-                  <div class="time__inner-item">Москва<span>16:25</span></div>
-                  <div class="time__inner-item">Турция<span>19:25</span></div>
-                </div>
-                <div class="time__difference">Разница +3 часа</div>
-              </div>
-              <div class="airplane">
-                <div class="airplane__title"><img src="assets/images/icons/airplane.svg"><span>Перелёт</span></div>
-                <div class="airplane__text">Среднее время</div>
-                <div class="airplane__time"><span>3<b>мин.</b></span><span>10<b>мин.</b></span></div>
-                <div class="airplane__distance">Расстояние: 2 231 км</div>
-              </div>
-            </div>
-          </div>
-          <div class="extradition__right-reservation">
-            <div class="extradition__right-title slide-title active">Зачем бронинировть заранее?<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="info-countres__inner slide-inner open">
-              <div class="info-countres">
-                <div class="info-countres__img"><img src="assets/images/icons/info-countres.svg"></div>
-                <div class="info-countres__info">
-                  <div class="info-countres__title">Раннее бронирование — это экономия</div>
-                  <div class="info-countres__text">Бронируя тур сейчас вы гарантировано получаете стоимость сильно ниже ( до 30% ), чем стоимость на такой же тур в сезон</div>
-                </div>
-              </div>
-              <div class="info-countres">
-                <div class="info-countres__img"><img src="assets/images/icons/info-countres2.svg"></div>
-                <div class="info-countres__info">
-                  <div class="info-countres__title">Лучшие отели</div>
-                  <div class="info-countres__text">Хорошие отели быстро раскупаются и всезон их может уже не быть, поэтому лучше их бронировать заранее</div>
+                  <div class="colendar-price__month"><span>Август</span><span>Сентябрь</span><span>Октябрь</span></div>
                 </div>
               </div>
             </div>
+            <div class="info-flight">
+              <div class="extradition__right-title slide-title active">Информация по перелёту<img src="assets/images/icons/str_bottom-black.svg"></div>
+              <div class="info-flight__box slide-inner open">
+                <div class="visa">
+                  <div class="visa__title"><img src="assets/images/icons/visa.svg"><span> Виза требуется</span></div>
+                  <div class="currency__title"><img src="assets/images/icons/currency.svg"><span>Валюта: EUR (€)</span></div>
+                  <div class="currency__inner">
+                    <div class="currency__inner-item">Евро<span>1€</span></div>
+                    <div class="currency__inner-item">Рубли<span>63,4₽</span></div>
+                  </div>
+                </div>
+                <div class="time">
+                  <div class="time__title"><img src="assets/images/icons/time.svg"><span>Местное время</span></div>
+                  <div class="time__inner">
+                    <div class="time__inner-item">Москва<span>16:25</span></div>
+                    <div class="time__inner-item">Турция<span>19:25</span></div>
+                  </div>
+                  <div class="time__difference">Разница +3 часа</div>
+                </div>
+                <div class="airplane">
+                  <div class="airplane__title"><img src="assets/images/icons/airplane.svg"><span>Перелёт</span></div>
+                  <div class="airplane__text">Среднее время</div>
+                  <div class="airplane__time"><span>3<b>мин.</b></span><span>10<b>мин.</b></span></div>
+                  <div class="airplane__distance">Расстояние: 2 231 км</div>
+                </div>
+              </div>
+            </div>
+            <div class="extradition__right-reservation">
+              <div class="extradition__right-title slide-title active">Зачем бронинировть заранее?<img src="assets/images/icons/str_bottom-black.svg"></div>
+              <div class="info-countres__inner slide-inner open">
+                <div class="info-countres">
+                  <div class="info-countres__img"><img src="assets/images/icons/info-countres.svg"></div>
+                  <div class="info-countres__info">
+                    <div class="info-countres__title">Раннее бронирование — это экономия</div>
+                    <div class="info-countres__text">Бронируя тур сейчас вы гарантировано получаете стоимость сильно ниже ( до 30% ), чем стоимость на такой же тур в сезон</div>
+                  </div>
+                </div>
+                <div class="info-countres">
+                  <div class="info-countres__img"><img src="assets/images/icons/info-countres2.svg"></div>
+                  <div class="info-countres__info">
+                    <div class="info-countres__title">Лучшие отели</div>
+                    <div class="info-countres__text">Хорошие отели быстро раскупаются и всезон их может уже не быть, поэтому лучше их бронировать заранее</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="map-countries toggle-hotel__item" data-block="map"></div>
         </div>
       </div>
     </main>
