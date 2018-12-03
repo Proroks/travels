@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
     <header class="header header-page">
@@ -374,12 +375,203 @@
       <div class="container extradition">
         <div class="extradition__left">
           <div class="filter">
-            <div class="filter__item">Моментальное бронирование</div>
-            <div class="filter__item">Бюджет<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="filter__item">Питание<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="filter__item">2 — 3 звезды<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="filter__item">Рейтинг отеля<img src="assets/images/icons/str_bottom-black.svg"></div>
-            <div class="filter__item">Другие<img src="assets/images/icons/str_bottom-black.svg"></div>
+            <div class="filter__item">Моментальное бронирование
+              <div class="filter__open">
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Любой</span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Превосходно</span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Очень хорошо</span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Хорошо</span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Достаточно хорошо</span>
+                  </label>
+                </div>
+                <div class="filter__open-btn"><a class="clear">Очистить</a><a class="apply">Применить</a></div>
+              </div>
+            </div>
+            <div class="filter__item">Бюджет<img src="assets/images/icons/str_bottom-blue.svg">
+              <div class="filter__open">
+                <div class="filter__open-item">
+                  <div class="filter-countries__amount">
+                    <div class="filter-countries__amount-min"></div><span>—</span>
+                    <div class="filter-countries__amount-max"></div>
+                  </div>
+                  <div class="slider-range" id="slider-range"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__item">Питание<img src="assets/images/icons/str_bottom-blue.svg"></div>
+            <div class="filter__item">2 — 3 звезды<img src="assets/images/icons/str_bottom-blue.svg">
+              <div class="filter__open">
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span>Любой</span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"></span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star-border.svg"></span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"></span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"></span>
+                  </label>
+                </div>
+                <div class="filter__open-item">
+                  <label>
+                    <input type="checkbox"><span><img src="assets/images/icons/star.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"><img src="assets/images/icons/star-border.svg"></span>
+                  </label>
+                </div>
+                <div class="filter__open-btn"><a class="clear">Очистить</a><a class="apply">Применить</a></div>
+              </div>
+            </div>
+            <div class="filter__item">Рейтинг отеля<img src="assets/images/icons/str_bottom-blue.svg"></div>
+            <div class="filter__item filter__item-last">Другие<img src="assets/images/icons/str_bottom-blue.svg">
+              <div class="filter__open filter__open-last">
+                <div class="filter__open-block">
+                  <div class="filter__open-title">Удобства</div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Любой</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Превосходно</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Очень хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Достаточно хорошо</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="filter__open-block">
+                  <div class="filter__open-title">Удобства</div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Любой</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Превосходно</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Очень хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Достаточно хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-all">Все туроператоры<img src="assets/images/icons/str-blue.svg"></div>
+                </div>
+                <div class="filter__open-block">
+                  <div class="filter__open-title">Удобства</div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Любой</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Превосходно</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Очень хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Достаточно хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-all">Все туроператоры<img src="assets/images/icons/str-blue.svg"></div>
+                </div>
+                <div class="filter__open-block">
+                  <div class="filter__open-title">Удобства</div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Любой</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Превосходно</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Очень хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Хорошо</span>
+                    </label>
+                  </div>
+                  <div class="filter__open-item">
+                    <label>
+                      <input type="checkbox"><span>Достаточно хорошо</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="filter__open-btn"><a class="btn btn--blue clear">Очистить</a><a class="btn btn--blue">Применить</a></div>
+              </div>
+            </div>
           </div>
           <div class="extradition__top-line">
             <div class="extradition__name">Горящие туры  в Сочи (Россия) за 15 000 рублей из Москвы</div>
